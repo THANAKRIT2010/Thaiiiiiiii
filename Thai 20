@@ -1,0 +1,650 @@
+-- โหลด UI
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+-- Services
+local Players = game:GetService("Players")
+local VirtualUser = game:GetService("VirtualUser")
+local RunService = game:GetService("RunService")
+
+local player = Players.LocalPlayer
+
+--========================
+-- AUTO TOOL
+--========================
+local running = false
+local delay = 0.2
+
+local currentTool
+local cachedRemotes = {}
+local cachedFunctions = {}
+
+local function cacheRemotes(tool)
+	cachedRemotes = {}
+	cachedFunctions = {}
+	if not tool then return end
+
+	for _, d in ipairs(tool:GetDescendants()) do
+		if d:IsA("RemoteEvent") then
+			table.insert(cachedRemotes, d)
+		elseif d:IsA("RemoteFunction") then
+			table.insert(cachedFunctions, d)
+		end
+	end
+end
+
+local function fireMouseClick()
+	pcall(function()
+		VirtualUser:Button1Down(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+		task.wait(0.03)
+		VirtualUser:Button1Up(Vector2.new(0,0), workspace.CurrentCamera.CFrame)
+	end)
+end
+
+local function autoLoop()
+	while running do
+		local char = player.Character
+		local tool = char and char:FindFirstChildOfClass("Tool")
+
+		if tool ~= currentTool then
+			currentTool = tool
+			cacheRemotes(tool)
+		end
+
+		if tool then
+			pcall(function() tool:Activate() end)
+			fireMouseClick()
+
+			for _, re in ipairs(cachedRemotes) do
+				pcall(function() re:FireServer() end)
+			end
+
+			for _, rf in ipairs(cachedFunctions) do
+				pcall(function() rf:InvokeServer() end)
+			end
+		end
+
+		task.wait(delay)
+	end
+end
+
+
+
+--========================
+-- ESP SYSTEM
+--========================
+local ESPEnabled = false
+local ESP_Box = true
+local ESP_Name = true
+local ESP_Distance = true
+local ESP_Line = true
+
+local ESPObjects = {}
+
+local function getRGB()
+	local t = tick()
+	return Color3.fromRGB(
+		math.sin(t)*127+128,
+		math.sin(t+2)*127+128,
+		math.sin(t+4)*127+128
+	)
+end
+
+local function CreateESP(plr)
+	if plr == player then return end
+	if ESPObjects[plr] then return end
+
+	local esp = {}
+
+	local highlight = Instance.new("Highlight")
+	highlight.FillTransparency = 1
+	highlight.Parent = game.CoreGui
+
+	local billboard = Instance.new("BillboardGui")
+	billboard.Size = UDim2.new(0,200,0,50)
+	billboard.AlwaysOnTop = true
+
+	local text = Instance.new("TextLabel")
+	text.Size = UDim2.new(1,0,1,0)
+	text.BackgroundTransparency = 1
+	text.TextStrokeTransparency = 0
+	text.TextScaled = true
+	text.Parent = billboard
+
+	billboard.Parent = game.CoreGui
+
+	local line = Drawing.new("Line")
+	line.Thickness = 1
+
+	esp.Highlight = highlight
+	esp.Billboard = billboard
+	esp.Text = text
+	esp.Line = line
+
+	ESPObjects[plr] = esp
+end
+
+local function RemoveESP(plr)
+	if ESPObjects[plr] then
+		local esp = ESPObjects[plr]
+
+		if esp.Highlight then esp.Highlight:Destroy() end
+		if esp.Billboard then esp.Billboard:Destroy() end
+		if esp.Line then esp.Line:Remove() end
+
+		ESPObjects[plr] = nil
+	end
+end
+
+RunService.RenderStepped:Connect(function()
+	if not ESPEnabled then return end
+
+	local char = player.Character
+	local hrp = char and char:FindFirstChild("HumanoidRootPart")
+	if not hrp then return end
+
+	local color = getRGB()
+
+	for _, plr in pairs(Players:GetPlayers()) do
+		if plr ~= player then
+
+			if not ESPObjects[plr] then
+				CreateESP(plr)
+			end
+
+			local esp = ESPObjects[plr]
+			local char2 = plr.Character
+			local hrp2 = char2 and char2:FindFirstChild("HumanoidRootPart")
+
+			if char2 and hrp2 then
+				local dist = (hrp.Position - hrp2.Position).Magnitude
+
+				-- BOX
+				if ESP_Box then
+					esp.Highlight.Adornee = char2
+					esp.Highlight.OutlineColor = color
+					esp.Highlight.Enabled = true
+				else
+					esp.Highlight.Enabled = false
+				end
+
+				-- NAME + DIST
+				if ESP_Name or ESP_Distance then
+					esp.Billboard.Adornee = hrp2
+					esp.Text.TextColor3 = color
+
+					local txt = ""
+					if ESP_Name then
+						txt = plr.Name
+					end
+					if ESP_Distance then
+						txt = txt .. " ["..math.floor(dist).."]"
+					end
+
+					esp.Text.Text = txt
+					esp.Billboard.Enabled = true
+				else
+					esp.Billboard.Enabled = false
+				end
+
+				-- LINE
+				if ESP_Line then
+					local pos, vis = workspace.CurrentCamera:WorldToViewportPoint(hrp2.Position)
+
+					if vis then
+						esp.Line.From = Vector2.new(workspace.CurrentCamera.ViewportSize.X/2, workspace.CurrentCamera.ViewportSize.Y)
+						esp.Line.To = Vector2.new(pos.X,pos.Y)
+						esp.Line.Color = color
+						esp.Line.Visible = true
+					else
+						esp.Line.Visible = false
+					end
+				else
+					esp.Line.Visible = false
+				end
+			end
+		end
+	end
+end)
+
+Players.PlayerRemoving:Connect(RemoveESP)
+
+--========================
+-- UI
+--========================
+local Window = Rayfield:CreateWindow({
+	Name = "⚡ Discrod: ",
+	LoadingTitle = "Loading...",
+	LoadingSubtitle = "by TK1669",
+	ConfigurationSaving = {Enabled = false}
+})
+
+-- MAIN TAB
+local Tab = Window:CreateTab("Main", 4483362458)
+
+Tab:CreateToggle({
+	Name = "Auto Tool",
+	CurrentValue = false,
+	Callback = function(value)
+		running = value
+		if running then task.spawn(autoLoop) end
+	end
+})
+
+Tab:CreateSlider({
+	Name = "Speed",
+	Range = {0.03, 1},
+	Increment = 0.01,
+	CurrentValue = 0.2,
+	Callback = function(value)
+		delay = value
+	end
+})
+
+-- ESP TAB
+local ESPTab = Window:CreateTab("ESP", 4483362458)
+
+ESPTab:CreateToggle({
+	Name = "เปิด ESP",
+	CurrentValue = false,
+	Callback = function(v)
+		ESPEnabled = v
+		if not v then
+			for plr,_ in pairs(ESPObjects) do
+				RemoveESP(plr)
+			end
+		end
+	end
+})
+
+ESPTab:CreateToggle({
+	Name = "ESP กรอบ",
+	CurrentValue = true,
+	Callback = function(v) ESP_Box = v end
+})
+
+ESPTab:CreateToggle({
+	Name = "ESP ชื่อ",
+	CurrentValue = true,
+	Callback = function(v) ESP_Name = v end
+})
+
+ESPTab:CreateToggle({
+	Name = "ESP ระยะ",
+	CurrentValue = true,
+	Callback = function(v) ESP_Distance = v end
+})
+
+ESPTab:CreateToggle({
+	Name = "ESP เส้น",
+	CurrentValue = true,
+	Callback = function(v) ESP_Line = v end
+})
+
+-- =========================
+-- PLAYER CONTROL (ALL IN ONE)
+-- =========================
+
+local PathfindingService = game:GetService("PathfindingService")
+
+local SelectedPlayer = nil
+local Follow = false
+
+-- หา HRP
+local function GetHRP(plr)
+	if not plr then return nil end
+	local char = plr.Character
+	if not char then return nil end
+	return char:FindFirstChild("HumanoidRootPart")
+end
+
+-- =========================
+-- PLAYER UI
+-- =========================
+local PlayerTab = Window:CreateTab("Player", 4483362458)
+
+local function GetPlayersList()
+	local t = {}
+	for _, p in pairs(Players:GetPlayers()) do
+		if p ~= player then
+			table.insert(t, p.Name)
+		end
+	end
+	return t
+end
+
+local dropdown = PlayerTab:CreateDropdown({
+	Name = "เลือกผู้เล่น",
+	Options = GetPlayersList(),
+	CurrentOption = nil,
+	Callback = function(v)
+		if typeof(v) == "table" then
+			v = v[1]
+		end
+		SelectedPlayer = Players:FindFirstChild(v)
+	end
+})
+
+PlayerTab:CreateButton({
+	Name = "รีเฟรชรายชื่อ",
+	Callback = function()
+		dropdown:SetOptions(GetPlayersList())
+	end
+})
+
+-- =========================
+-- TELEPORT (หน้า / หลัง)
+-- =========================
+PlayerTab:CreateButton({
+	Name = "วาปไปด้านหน้า",
+	Callback = function()
+		local myHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+		local targetHRP = GetHRP(SelectedPlayer)
+
+		if myHRP and targetHRP then
+			myHRP.CFrame = targetHRP.CFrame * CFrame.new(0,0,-3)
+		end
+	end
+})
+
+PlayerTab:CreateButton({
+	Name = "วาปไปด้านหลัง",
+	Callback = function()
+		local myHRP = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+		local targetHRP = GetHRP(SelectedPlayer)
+
+		if myHRP and targetHRP then
+			myHRP.CFrame = targetHRP.CFrame * CFrame.new(0,0,3)
+		end
+	end
+})
+
+-- =========================
+-- FOLLOW (เดินหลบของ)
+-- =========================
+PlayerTab:CreateToggle({
+	Name = "เดินตาม (หลบสิ่งกีดขวาง)",
+	CurrentValue = false,
+	Callback = function(v)
+		Follow = v
+	end
+})
+
+-- =========================
+-- SMART LOOP
+-- =========================
+task.spawn(function()
+	while true do
+		if Follow and SelectedPlayer then
+
+			local myChar = player.Character
+			if not myChar then task.wait() continue end
+
+			local humanoid = myChar:FindFirstChildOfClass("Humanoid")
+			local myHRP = myChar:FindFirstChild("HumanoidRootPart")
+			local targetHRP = GetHRP(SelectedPlayer)
+
+			if humanoid and myHRP and targetHRP then
+
+				local targetPos = targetHRP.Position
+
+				-- PATHFINDING
+				local path = PathfindingService:CreatePath({
+					AgentRadius = 2,
+					AgentHeight = 5,
+					AgentCanJump = true
+				})
+
+				path:ComputeAsync(myHRP.Position, targetPos)
+
+				if path.Status == Enum.PathStatus.Success then
+					local waypoints = path:GetWaypoints()
+
+					for _, wp in ipairs(waypoints) do
+						if not Follow then break end
+
+						humanoid:MoveTo(wp.Position)
+
+						if wp.Action == Enum.PathWaypointAction.Jump then
+							humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+						end
+
+						task.wait(0.15)
+					end
+
+				else
+					-- fallback เดินตรง
+					humanoid:MoveTo(targetPos)
+
+					-- ดึงแรงกันไม่ไป
+					local dir = (targetPos - myHRP.Position)
+					if dir.Magnitude > 5 then
+						myHRP.AssemblyLinearVelocity = dir.Unit * 80
+					end
+				end
+			end
+		end
+
+		task.wait(0.2)
+	end
+end)
+
+-- =========================
+-- SPEED SYSTEM (RAYFIELD)
+-- =========================
+
+local TPWalk = false
+local TPWalkSpeed = 1
+
+local Dash = false
+local DashSpeed = 3
+
+-- TAB ใหม่ (Rayfield ต้อง CreateTab)
+local SpeedTab = Window:CreateTab("Speed", 4483362458)
+
+-- =========================
+-- TP WALK
+-- =========================
+SpeedTab:CreateToggle({
+	Name = "TPWalk (ลื่น)",
+	CurrentValue = false,
+	Callback = function(v)
+		TPWalk = v
+	end
+})
+
+SpeedTab:CreateSlider({
+	Name = "ความเร็ว TPWalk",
+	Range = {1,20},
+	Increment = 1,
+	CurrentValue = 1,
+	Callback = function(v)
+		TPWalkSpeed = v
+	end
+})
+
+-- =========================
+-- DASH
+-- =========================
+SpeedTab:CreateToggle({
+	Name = "พุ่งไปข้างหน้า",
+	CurrentValue = false,
+	Callback = function(v)
+		Dash = v
+	end
+})
+
+SpeedTab:CreateSlider({
+	Name = "ความเร็วพุ่ง",
+	Range = {1,20},
+	Increment = 1,
+	CurrentValue = 3,
+	Callback = function(v)
+		DashSpeed = v
+	end
+})
+
+-- =========================
+-- LOOP
+-- =========================
+RunService.RenderStepped:Connect(function()
+
+	local char = player.Character
+	if not char then return end
+
+	local hrp = char:FindFirstChild("HumanoidRootPart")
+	local humanoid = char:FindFirstChildOfClass("Humanoid")
+
+	if not hrp or not humanoid then return end
+
+	-- 🔹 TPWalk (ต้องกดเดิน)
+	if TPWalk then
+		local moveDir = humanoid.MoveDirection
+		if moveDir.Magnitude > 0 then
+			hrp.CFrame = hrp.CFrame + (moveDir * TPWalkSpeed)
+		end
+	end
+
+	-- 🔥 Dash (พุ่งตามหน้าตัวละคร)
+	if Dash then
+		local forward = hrp.CFrame.LookVector
+		hrp.CFrame = hrp.CFrame + (forward * DashSpeed)
+	end
+
+end)
+
+-- =========================
+-- CREATE NEW TAB (ไม่สร้าง UI ใหม่)
+-- =========================
+local SitTab = Window:CreateTab("😈 Sit Head", 4483362458)
+
+-- =========================
+-- VARIABLES
+-- =========================
+local SitConnection = nil
+
+-- =========================
+-- FUNCTIONS
+-- =========================
+local function StopSit()
+	if SitConnection then
+		SitConnection:Disconnect()
+		SitConnection = nil
+	end
+end
+
+local function StartSit()
+	if not SelectedPlayer then
+		warn("ยังไม่ได้เลือกผู้เล่น")
+		return
+	end
+
+	local myChar = player.Character or player.CharacterAdded:Wait()
+	local myHRP = myChar:WaitForChild("HumanoidRootPart")
+	local humanoid = myChar:WaitForChild("Humanoid")
+
+	humanoid.Sit = true
+
+	StopSit()
+
+	SitConnection = RunService.RenderStepped:Connect(function()
+
+		local targetChar = SelectedPlayer.Character
+		local head = targetChar and targetChar:FindFirstChild("Head")
+		if not head then return end
+
+		-- 🔥 ล็อคหัวเป๊ะ
+		myHRP.CFrame = head.CFrame * CFrame.new(0, 1.8, 0)
+
+		-- 🔥 กันเด้ง
+		myHRP.AssemblyLinearVelocity = Vector3.zero
+		myHRP.AssemblyAngularVelocity = Vector3.zero
+
+	end)
+end
+
+-- =========================
+-- UI IN TAB ใหม่
+-- =========================
+SitTab:CreateButton({
+	Name = "นั่งบนหัว (ใช้ PlayerTab)",
+	Callback = function()
+		StartSit()
+	end
+})
+
+SitTab:CreateButton({
+	Name = "หยุด",
+	Callback = function()
+		StopSit()
+	end
+})
+
+-- =========================
+-- 🔥 AUTO SELL (UNIVERSAL + ไม่พัง)
+-- =========================
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local AutoSell = false
+local SellLoop = nil
+local SellRemotes = {}
+
+-- 🔍 สแกนหา Remote อัตโนมัติ
+local function ScanSellRemotes()
+	SellRemotes = {}
+
+	for _, v in ipairs(ReplicatedStorage:GetDescendants()) do
+		if v:IsA("RemoteEvent") then
+			local name = string.lower(v.Name)
+
+			if string.find(name, "sell")
+			or string.find(name, "cash")
+			or string.find(name, "coin")
+			or string.find(name, "reward")
+			or string.find(name, "house") then
+				
+				table.insert(SellRemotes, v)
+			end
+		end
+	end
+end
+
+ScanSellRemotes()
+
+-- 🔥 ยิงทุกแบบ (กันเกมไม่เหมือนกัน)
+local function FireSell()
+	for _, remote in ipairs(SellRemotes) do
+		pcall(function() remote:FireServer() end)
+		pcall(function() remote:FireServer("Sell") end)
+		pcall(function() remote:FireServer("sell") end)
+		pcall(function() remote:FireServer(1) end)
+	end
+end
+
+-- =========================
+-- 🔥 เพิ่มเข้า Main Tab เดิม (ไม่สร้างใหม่)
+-- =========================
+
+Tab:CreateToggle({
+	Name = "💰 Auto ปั้มเงิน (กรุณาซื้อบ้านก่อนเนอะ ไอวาย)",
+	CurrentValue = false,
+	Callback = function(v)
+		AutoSell = v
+
+		if AutoSell then
+			-- สแกนใหม่ทุกครั้ง (กันเกมโหลดช้า)
+			ScanSellRemotes()
+
+			SellLoop = RunService.Heartbeat:Connect(function()
+				for i = 1, 40 do
+					FireSell()
+				end
+			end)
+		else
+			if SellLoop then
+				SellLoop:Disconnect()
+				SellLoop = nil
+			end
+		end
+	end
+})
