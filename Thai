@@ -1,1 +1,579 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local R={"\100\084\074\080\100\081\056\050\049\054\112\061";"\078\081\112\090\117\077\066\086\077\077\104\104\065\104\077\081","\100\078\077\078\043\068\107\066\112\098\067\085\120\084\075\117\070\103\076\061","\108\080\107\115\057\083\074\072\049\085\086\077\112\080\067\098";"\107\054\114\121\043\078\102\086\108\065\075\109\078\083\056\080\070\090\070\061";"\070\085\074\115\070\085\104\083";"\113\086\074\050\049\054\105\098\120\055\061\061";"\049\118\108\043\057\113\077\051","\117\077\077\111\068\086\050\073\108\084\097\068\117\054\117\073","\043\065\056\051\068\083\056\086\117\085\118\086\051\078\108\079\065\113\110\061","\049\111\048\061";"\112\085\077\083\049\065\077\083\070\113\105\075\070\054\114\098","\051\086\057\052\051\071\110\080\049\068\078\073\051\071\070\052","\112\054\104\115\107\084\074\097","","\113\086\074\076\107\065\121\061","\049\065\104\083\051\055\061\061","\108\065\102\090\089\068\056\114\051\117\061\061","\049\084\077\115","\112\090\105\073\051\065\052\122";"\112\084\108\075\049\084\072\061";"\107\085\086\075\100\084\108\066","\077\084\104\097\112\084\077\073\048\118\105\098\100\084\077\071\100\084\077\103\048\117\061\061";"\089\101\110\098\107\109\066\050\089\110\061\061";"\113\086\074\122\070\072\061\061","\107\085\104\097\107\117\061\061";"\077\071\067\113\100\104\108\066\051\103\078\073\100\084\098\081\107\110\061\061","\049\111\118\061";"\107\090\098\103\100\098\075\090\120\077\107\111\100\065\050\115\070\117\061\061","\070\085\075\075\112\110\061\061";"\057\065\050\080\117\065\048\086\049\104\112\080\107\113\104\075";"\100\084\074\115\100\065\086\101\107\113\048\061","\068\081\048\052\065\103\074\079\105\090\056\073\117\078\098\111";"\107\054\114\087\049\090\048\061";"\107\113\056\073\049\090\048\061","\112\054\077\097\049\090\107\098","\043\081\105\083\112\118\100\098\100\055\061\061";"\049\084\074\075\107\081\108\083\112\054\098\115\107\072\061\061";"\065\081\100\043\105\081\056\078\077\098\075\056\057\081\100\072";"\077\118\057\090\077\118\114\115\068\122\067\072\117\113\056\057\100\081\055\061";"\089\110\061\061";"\070\122\098\083\107\117\061\061";"\107\090\108\086\070\110\061\061";"\113\086\074\097\107\113\105\075\100\084\104\101\049\084\078\061","\085\087\052\066\055\069\049\050\101\107\115\119\109\069\080\067\117\110\050\068\111\121\054\081\120\111\110\103\089\098\080\082\107\113\070\080\043\110\055\074\071\111\083\079\083\104\065\053\122\083\071\075\066\075\052\082\072\088\079\098\119\100\051\071\086\087\116\073\076\105\087\103\069\056\116\051\089\087\111\056\115\099\101\056\117\110\076\102\086\065\050\109\106\109\115\090\085\055\053\098\097\109\088\065\084\102\065\047\043\052\073\065\072\084\076\113\085\066\050\049\087\084\086\110\076\118\115\100\108\109\112\090\071\122\110\109\097\112\105\088\055\108\068\097\051\051\112\057\068\110\089\107\107\104\071\070\116\089\078\119\054\111\097\076\072\065\056\106\075\072\118\100\085\069\054\080\054\055\047\074\104\098\085\084\099\080\079\047\051\086\074\108\106\048\072\047\056\090\079\118\102\117\069\105\097\115\057\118\084\049\086\103\076\108\081\110\114\089\086\117\082\065\107\110\072\084\043\066\100\077\057\083\083\071\098\067\049\077\082\071\114\070\050\113\106\098\101\104\110\117\105\069\101\105\108\052\068\068\068\119\097\047\099\074\102\120\076\117\079\110\080\099\053\085\115\043\080\111\090\075\077\112\106\070\071\074\087\055\099\076\089\053\089\087\115\074\078\107\083\109\106\121\098\083\111\080\052\103\111\115\083\088\073\114\089\073\097\069\057\076\055\077\118\043\072\118\043\119\114\110\061\061";"\100\065\052\072\070\065\108\079";"\100\084\104\101\049\084\078\061"}local function A(A)return R[A+(331566-316023)]end for A,b in ipairs({{-828593+828594;635461+-635414},{303711+-303710;-637821+637831};{-419306+419317,-797475+797522}})do while b[-315525-(-315526)]<b[-368176-(-368178)]do R[b[106249-106248]],R[b[326475+-326473]],b[-598869+598870],b[-769941+769943]=R[b[-75437+75439]],R[b[-677474+677475]],b[110735+-110734]+(653606-653605),b[674675+-674673]-(-863148-(-863149))end end do local A=R local b=table.insert local P=string.sub local C=math.floor local O=table.concat local x={V=-17085+17138;O=266440+-266397,["\049"]=799836-799809;r=556835+-556786;R=720267+-720204;P=658477+-658426,["\053"]=378996-378954,c=-193799-(-193858);u=572633-572617,I=823714-823664,m=382557+-382555,J=-739768+739829;j=-623288-(-623303);e=-384775-(-384809),p=-23068+23096,q=-435541-(-435564);["\043"]=-618232-(-618250),W=-62757+62804,D=826401+-826382;["\047"]=407883+-407825;a=726190-726145;B=823113+-823073;t=-505533-(-505544);g=910854-910818;K=603120+-603087;Q=-865546+865553,o=-704428+704431,["\057"]=-507797+507809,H=192436-192388,L=-54011+54055,["\048"]=1030442-1030434,G=-575792+575827;M=24565+-24544;i=84681-84664;Y=-474106+474120;k=921035-921010;S=1016287+-1016235,["\050"]=-495335+495376;w=503047-503016;b=430722-430685,X=-1039255+1039317,["\051"]=-874898+874924;n=196094-196062;v=754630-754626;y=-105756-(-105812),Z=964929-964874,z=111767-111728,h=107412+-107407,x=-737657-(-737687),["\054"]=596494+-596456,C=67511-67510,N=1033803-1033783,U=-101756+101810;["\056"]=238648-238639;["\052"]=-822621-(-822678),l=970175-970162;["\055"]=506365-506365,T=-122273+122279;E=381405+-381395,d=-913703-(-913732),A=900576+-900554,s=-34777-(-34823),F=525310-525286;f=870680-870620}local I=type local F=string.len local W=string.char for R=410543+-410542,#A,-20386-(-20387)do local E=A[R]if I(E)=="\115\116\114\105\110\103"then local I=F(E)local v={}local U=-351035+351036 local J=84817-84817 local Y=-599218-(-599218)while U<=I do local R=P(E,U,U)local A=x[R]if A then J=J+A*(-635975-(-636039))^((-615162-(-615165))-Y)Y=Y+(-621232+621233)if Y==-881149-(-881153)then Y=836113+-836113 local R=C(J/(-747319+812855))local A=C((J%(1080508-1014972))/(12522-12266))local P=J%(-714238-(-714494))b(v,W(R,A,P))J=-1006802-(-1006802)end elseif R=="\061"then b(v,W(C(J/(-278336-(-343872)))))if U>=I or P(E,U+(-953951-(-953952)),U+(-803395-(-803396)))~="\061"then b(v,W(C((J%(-918459-(-983995)))/(-104994-(-105250)))))end break end U=U+(-463855-(-463856))end A[R]=O(v)end end end return(function(R,P,C,O,x,I,F,Y,E,b,t,B,a,D,p,K,W,J,v,y,U)y,U,b,E,t,D,K,Y,B,a,p,v,J,W=function(R,A)local P=J(A)local C=function(C,O,x,I,F,W,E)return b(R,{C;O;x,I,F,W;E},A,P)end return C end,-347722+347722,function(b,C,O,x)local u,l,H,j,E,p,n,Q,L,V,Z,J,c,m,G,o,h,T,Y,r,S,U,M,F,k,N,e,g,f,d,X,w,s,i while b do if b<5908845-(-1037110)then if b<4025198-(-170565)then if b<883683+1409940 then if b<1634410-631531 then if b<489904-(-139556)then if b<-630271+991000 then if b<-8128-(-296206)then r=r+e n=not H o=r<=Q o=n and o n=r>=Q n=H and n o=n or o n=12354226-(-879755)b=o and n o=475009+9236841 b=b or o else U=W[O[-415581+415583]]J=W[O[-153709+153712]]b=11959816-(-86230)E=U==J F=E end else W[U]=G b=W[U]b=b and 3789341-378579 or 6358107-347358 end else if b<89607+823109 then d=831630+-831629 h=b c=T[d]d=false g=c==d u=g b=g and 5372843-15941 or 4765106-(-421497)else b=true F={}W[O[893576-893575]]=b b=R[A(502174+-517694)]end end else if b<1188757-(-863826)then if b<908252-(-225207)then j=e==H G=j b=-431401-(-793611)else f=v()M=A(470403+-485919)T=128055+-128053 W[f]=G F=R[M]S=-913577+923577 M=A(628789+-644308)b=F[M]L=-1042764-(-1042764)Z=-131230+131330 X=167182-167181 M=-125990+125991 F=b(M,Z)Z=408665+-408665 M=v()W[M]=F w=2284-2029 b=W[k]F=b(Z,w)Z=v()W[Z]=F w=-789287+789288 b=W[k]m=W[M]F=b(w,m)w=v()W[w]=F F=W[k]m=F(X,T)F=-87619-(-87620)g=A(117787+-133319)T=A(-772270+756731)b=m==F m=v()F=A(28268-43777)W[m]=b h=R[g]c=W[k]b=A(-732457-(-716920))d={c(L,S)}g=h(P(d))h=A(-368412-(-352873))b=l[b]u=g..h X=T..u b=b(l,F,X)X=v()W[X]=b u=B(-332597+12078851,{k;f,r,J,U;i;m;X,M;w;Z,Q})T=A(-245844-(-230332))F=R[T]T={F(u)}b={P(T)}T=b b=W[m]b=b and 4487189-1007280 or-1043609+12426404 end else if b<-652425+2841463 then s=277343-277343 i=#n l=i==s b=-402981+3016969 else F=Q b=r b=Q and 306779+13610017 or 10816763-(-169623)end end end else if b<3770117-720464 then if b<3435182-821356 then if b<-398905+3008587 then if b<711649+1719839 then b=11796663-800056 else s=A(35141-50663)b=R[s]s=A(69963+-85468)R[s]=b b=-936798+13093316 end else b=W[O[-28919-(-28929)]]U=W[O[-722175-(-722186)]]E[b]=U b=W[O[165437-165425]]U={b(E)}F={P(U)}b=R[A(-28022-(-12491))]end else if b<-841744+3749242 then s=#n i=-813154-(-813155)l=Y(i,s)i=N(n,l)Z=-796745-(-796746)l=nil b=-969514+5213116 s=W[H]M=i-Z f=k(M)s[i]=f i=nil else E=A(-632908+617410)J=758968-758968 b=R[E]U=W[O[387240-387232]]E=b(U,J)b=5739812-746806 end end else if b<586525+2857069 then if b<2230742-(-1030333)then b=15634369-159588 J=W[O[-518518-(-518524)]]U=J==E F=U else b=-104321+7058122 end else if b<-249325+3927508 then u=W[U]F=u b=u and-154835+907841 or 8453023-971898 else s=578478+-578472 b=W[k]V=-824226+824227 j=b(V,s)s=A(136649-152171)b=A(-406092+390570)R[b]=j V=R[s]s=63823+-63821 b=V>s b=b and 390687+11613118 or-377400+2985150 end end end end else if b<5174161-(-818726)then if b<4624939-(-307454)then if b<4874049-292709 then if b<5223708-904437 then if b<4297501-4712 then i=#n s=-493750+493750 l=i==s b=l and 672806+5125760 or-773027+3387015 else J=574615+-574560 U=W[O[-562345-(-562348)]]b=5341060-(-835685)E=U*J U=838099-837842 F=E%U W[O[87039-87036]]=F end else m=D(m)b=700937+4220090 T=nil w=D(w)Z=D(Z)X=D(X)M=D(M)f=D(f)end else if b<-93892+4940529 then b=6053213-(-519171)N=W[p]F=N else G=G+V F=G<=j f=not s F=f and F f=G>=j f=s and f F=f or F f=1191561-(-754466)b=F and f F=-766671+15212506 b=b or F end end else if b<5546950-333278 then if b<1037368+4114430 then U=941934+-941933 b={}E=b b=-878322+16824264 J=W[O[747067+-747058]]Y=J J=382438+-382437 p=J J=-931540+931540 N=p<J J=U-p else b=h F=u b=7151522-(-329603)end else if b<5881861-462804 then d=234022+-234020 c=T[d]d=W[X]g=c==d u=g b=799460+4387143 else m=A(14063-29589)n=nil i=v()f=v()T=A(807181+-822717)g=nil l={}W[i]=l s=a(16011686-413585,{i,Q,r;p})M=A(-812821-(-797300))e=nil l=v()k=nil N=nil W[l]=s s={}Z={}W[f]=s s=R[M]p=D(p)Y=nil X=W[f]k=A(1000307-1015814)w={[m]=X,[T]=g}o=nil M=s(Z,w)b=R[A(289009+-304515)]U=M s=y(967128+12474681,{f,i,H,Q,r,l})J=s i=D(i)f=D(f)p=A(-908482+892940)Y=R[p]H=D(H)l=D(l)Q=D(Q)F={}e=310369623405-(-402211)r=D(r)r=A(-563740+548205)N=R[k]Q=J(r,e)J=nil o=U[Q]Q=A(886851-902347)Q=N[Q]k={Q(N,o)}p=Y(P(k))U=nil Y=p()end end end else if b<-635222+6816011 then if b<336910+5790493 then if b<187448+5905503 then if b<983322+5038011 then b=true b=5734463-(-388063)else b=true b=b and 12881298-(-661120)or-421206+6543732 end else b=t(-428630+10640909,{Y})j={b()}b=R[A(-816838+801315)]F={P(j)}end else if b<199942+5946365 then b=true J=A(583498+-599011)U=v()W[U]=b E=C Y=v()F=R[J]J=A(-922720+907209)b=F[J]p=v()J=v()W[J]=b b=K(844467+6081613,{})W[Y]=b k=A(76229-91741)b=false W[p]=b N=R[k]o=a(86817+900290,{p})k=N(o)F=k b=k and-244405+5059698 or 6118366-(-454018)else J=657595+-657594 U=W[O[650085+-650082]]E=U~=J b=E and 965849+13498843 or 3919491-(-379361)end end else if b<977508+5331672 then if b<-332498+6594040 then E=A(-529775+514270)F=A(352516+-368038)b=R[F]F=R[E]E=A(126782+-142287)R[E]=b E=A(985231-1000753)b=8735554-(-535516)R[E]=F E=W[O[-248532+248533]]U=E()else b=R[A(-91266+75736)]F={}end else if b<7767916-943737 then k=A(766375+-781891)N=F F=R[k]o=A(-518096-(-502563))k=A(916869+-932388)H=A(91126-106659)b=F[k]k=v()W[k]=b F=R[o]o=A(12185+-27712)b=F[o]e=R[H]r=b Q=e o=b b=e and-490054+11359674 or 2210548-(-56872)else F=A(-322229-(-306731))E=A(173203-188713)b=R[F]F=b(E)b=R[A(195558+-211060)]F={}end end end end end else if b<12531528-472723 then if b<10803125-391535 then if b<576753+8079449 then if b<897495+6627026 then if b<8280977-826907 then if b<237307+7061299 then r=D(r)U=D(U)N=nil o=nil J=D(J)p=D(p)i=D(i)e=nil k=D(k)U=nil H=nil n=nil N=A(856245-871761)o=A(-622509+606976)Y=D(Y)Q=D(Q)J=nil k=A(-247836+232320)n={}p=R[N]l=nil N=A(365197+-380696)Y=p[N]p=v()W[p]=Y N=R[k]k=A(-700337+684818)Y=N[k]H=v()k=R[o]Q=A(902316-917829)b=16521514-(-97858)o=A(-841187-(-825690))r=v()N=k[o]o=R[Q]Q=A(246789+-262292)e={}k=o[Q]o=848721+-848721 l=277631-277630 i=429164-428908 Q=v()W[Q]=o o=-666384-(-666386)W[r]=o s=i W[H]=e o={}e=-302876+302876 i=916538+-916537 f=i i=-24759-(-24759)M=f<i i=l-f else l=i Z=l b=-891240+17510612 n[l]=Z l=nil end else W[U]=F b=-570405+4997998 end else if b<8814602-816313 then Q=-272383+272638 b=W[O[916351-916350]]o=-569570+569570 k=b(o,Q)U=J E[U]=k U=nil b=907144+15038798 else W[U]=u L=-776313-(-776314)d=W[w]c=d+L g=T[c]h=e+g g=460315-460059 b=h%g c=W[Z]e=b g=H+c c=439052-438796 b=3464270-(-963323)h=g%c H=h end end else if b<-985294+10880808 then if b<9901387-551362 then b=true b=b and-100429+6343326 or-112870+6419431 else Y=nil k=nil N=nil b=11571150-574543 end else if b<9447674-(-833134)then b=-925012+10196082 else b=R[A(599779-615307)]F={}end end end else if b<10520282-(-875646)then if b<10909705-(-83365)then if b<-830133+11762912 then if b<11626284-976869 then J=A(-747435-(-731902))U=R[J]J=A(348141-363638)E=U[J]b=R[A(419299-434823)]J=W[O[-874333-(-874334)]]U={E(J)}F={P(U)}else n=A(-2449+-13084)b=1709526-(-557894)H=R[n]n=A(-949628-(-934094))e=H[n]Q=e end else r=A(-816499+800965)b=12933265-(-983531)Q=R[r]F=Q end else if b<-918812+12135451 then F={U}b=R[A(692999-708528)]else h=W[U]b=h and-341059+14430533 or 7882994-(-373242)u=h end end else if b<1030012+10896217 then if b<859533+10877646 then J=16641950-87795 U=A(-459217+443717)F=-162244+2167799 E=U^J b=F-E E=b F=A(910704-926219)b=F/E F={b}b=R[A(-480241+464737)]else Y=-316705+316706 p=9620+-9618 U=W[O[159071+-159070]]J=U(Y,p)U=-1003427+1003428 E=J==U b=E and 12464035-417989 or-297640+657877 F=E end else if b<-44152+12078724 then f=A(390225+-405730)V=A(-476978+461446)b=R[V]s=R[f]V=b(s)b=A(23460+-38982)R[b]=V b=302652+11853866 else b=F and-546345+16353663 or-972741+17219208 end end end end else if b<14829992-811481 then if b<12747012-(-544764)then if b<13893129-722709 then if b<191598+12175060 then if b<11791550-(-320193)then J=8512190-979850 F=-598688+5770978 U=A(-1021396-(-1005856))E=U^J b=F-E F=A(215164+-230689)E=b b=F/E F={b}b=R[A(-416082-(-400541))]else b=13879061-601982 end else U=W[O[520020+-520018]]J=-762636-(-762793)E=U*J U=209240+33201196092171 F=E+U E=35184371675254-(-413578)b=F%E W[O[804962-804960]]=b E=W[O[23540+-23537]]U=745396-745395 b=3259075-(-1039777)F=E~=U end else if b<688394+12586463 then o=r V=A(-598744+583231)j=R[V]V=A(-985299-(-969761))G=j[V]j=G(E,o)G=W[O[181516+-181510]]V=G()o=nil b=895443+-647735 i=j+V l=i+N i=655309+-655053 n=l%i V=-563826+563827 i=J[U]N=n j=N+V G=Y[j]l=i..G J[U]=l else b=true b=b and 3396379-(-588490)or 1004269+9279710 end end else if b<-278671+13783079 then if b<-623056+14063243 then b={}p=35184371512033-(-576799)W[O[859716+-859714]]=b F=W[O[307814-307811]]Y=F F=U%p k=-424058+424313 W[O[600096+-600092]]=F o=A(658147-673660)N=U%k k=493922-493920 p=N+k W[O[-885897-(-885902)]]=p k=R[o]o=A(-807952-(-792438))N=k[o]k=N(E)N=A(1001119-1016637)J[U]=N N=31078+-31018 r=-558372-(-558373)b=620991-373283 Q=k o=801166-801165 e=r r=-920990+920990 H=e<r r=o-e else E=C[214983+-214982]U=C[766528-766526]b=W[O[-153818-(-153819)]]J=b b=J[U]b=b and-758815+3110457 or 453063+12938763 end else if b<-979944+14794344 then b=-265349+13542428 else e=1010181-1010116 l=t(11478581-(-616701),{})r=622283+-622280 Q=v()W[Q]=F b=W[k]F=b(r,e)r=v()W[r]=F b=-382985+382985 n=A(79800+-95312)F=R[n]n={F(l)}e=b F=839889+-839887 b=-57790-(-57790)H=b b={P(n)}n=b b=n[F]F=A(-838718+823217)V=A(-760096-(-744564))l=b b=R[F]i=W[J]j=R[V]V=j(l)j=A(-187642-(-172133))G=i(V,j)i={G()}F=b(P(i))i=v()W[i]=F F=154847-154846 b=5009664-88637 G=W[r]j=G G=-475359-(-475360)V=G G=567780+-567780 s=V<G G=F-V end end end else if b<16269714-535572 then if b<-15036+15466984 then if b<-712986+15159186 then if b<330044+13888480 then g=732397+-732396 h=T[g]u=h b=8777137-520901 else j=W[U]G=j b=j and 541319+476424 or-464606-(-826816)end else J=-6439-(-6471)U=W[O[-729191-(-729194)]]E=U%J Q=-587847-(-587849)Y=W[O[-1015094-(-1015098)]]k=W[O[374994-374992]]l=W[O[789975-789972]]n=l-E l=1020805+-1020773 H=n/l e=-963916-(-963929)r=e-H o=Q^r N=k/o p=Y(N)Y=4293964057-(-1003239)o=998362-998361 J=p%Y p=-866789-(-866791)Y=p^E U=J/Y Y=W[O[395882-395878]]k=U%o o=4294372124-(-595172)N=k*o p=Y(N)Y=W[O[-15214+15218]]N=Y(U)e=-451906+452162 J=p+N p=1090873-1025337 b=588721+9891101 Y=J%p Q=427667-427411 k=-513931-(-579467)N=J-Y J=nil p=N/k U=nil k=487206-486950 N=Y%k E=nil o=Y-N k=o/Q Q=60834-60578 o=p%Q Y=nil r=p-o Q=r/e r={N,k,o;Q}k=nil Q=nil N=nil W[O[-904213-(-904214)]]=r p=nil o=nil end else if b<16145226-641276 then W[O[340303+-340298]]=F b=858019+15388448 E=nil else E=W[O[138062-138061]]F=#E E=842668+-842668 b=F==E b=b and 13387043-717061 or 11325479-845657 end end else if b<855100+15292476 then if b<-9201+15921354 then F=A(676438-691939)Q=K(11203065-(-489285),{})b=R[F]E=W[O[-652427+652431]]o=A(417687+-433199)Y=A(-678174-(-662642))J=R[Y]k=R[o]o={k(Q)}N={P(o)}k=824461-824459 p=N[k]Y=J(p)J=A(566898+-582407)U=E(Y,J)E={U()}F=b(P(E))E=F U=W[O[66311-66306]]F=U b=U and 154216+2895737 or 15033192-(-441589)else J=J+p U=J<=Y k=not N U=k and U k=J>=Y k=N and k U=k or U k=-882916+8414584 b=U and k U=-426004+3039594 b=b or U end else if b<846904+15435029 then b=W[O[-656172-(-656179)]]b=b and 3607287-558735 or-9792+5002798 else i=i+f Z=not M l=i<=s l=Z and l Z=i>=s Z=M and Z l=Z or l Z=7006537-(-353670)b=l and Z l=707872+1415911 b=b or l end end end end end end end b=#x return P(F)end,{},function(R,A)local P=J(A)local C=function(C,O,x,I,F)return b(R,{C,O,x,I;F},A,P)end return C end,function(R)E[R]=E[R]-(167033-167032)if-210823+210823==E[R]then E[R],W[R]=nil,nil end end,function(R,A)local P=J(A)local C=function(C,O,x,I)return b(R,{C;O,x;I},A,P)end return C end,function(R)local A,b=91616-91615,R[-101265+101266]while b do E[b],A=E[b]-(-32396+32397),A+(-885891-(-885892))if 4115-4115==E[b]then E[b],W[b]=nil,nil end b=R[A]end end,function(R,A)local P=J(A)local C=function()return b(R,{},A,P)end return C end,function(R,A)local P=J(A)local C=function(C,O,x)return b(R,{C,O,x},A,P)end return C end,function(R,A)local P=J(A)local C=function(...)return b(R,{...},A,P)end return C end,function()U=U+(539509+-539508)E[U]=656771-656770 return U end,function(R)for A=-684996-(-684997),#R,745702+-745701 do E[R[A]]=(285776-285775)+E[R[A]]end if C then local b=C(true)local P=x(b)P[A(-478073-(-462547))],P[A(989069+-1004577)],P[A(-203992-(-188475))]=R,Y,function()return 992067+-2582708 end return b else return O({},{[A(1038553+-1054061)]=Y,[A(789273-804799)]=R,[A(51480-66997)]=function()return-1681471-(-90830)end})end end,{}return(p(207340+5938088,{}))(P(F))end)(getfenv and getfenv()or _ENV,unpack or table[A(-986782+971248)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+-- ==========================================
+-- 🛠️ PRE-REQUISITES (ส่วนสำคัญเพื่อให้สคริปต์ทำงาน)
+-- ==========================================
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TeleportService = game:GetService("TeleportService")
+local LocalPlayer = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+
+-- ==========================================
+-- 📜 ส่วนที่ 1: โค้ดหลัก (สคริปต์แรกของคุณ)
+-- ==========================================
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "Script Premium [🔫🌊!]🎐City 2.0",
+    SubTitle = "by ADMIN TK1669",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true,
+    Theme = "Aqua",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+Tabs.Main:AddSlider("Slider", {
+    Title = "Slider",
+    Default = 3,
+    Min = 0,
+    Max = 10,
+    Rounding = 1,
+    Callback = function(Value) print("Slider:", Value) end
+})
+
+Tabs.Main:AddDropdown("Dropdown", {
+    Title = "Dropdown",
+    Values = {"one", "two", "four"},
+    Default = "four"
+})
+
+Tabs.Main:AddDropdown("MultiDropdown", {
+    Title = "Dropdown (multi)",
+    Values = {"three", "five", "seven"},
+    Multi = true,
+    Default = {"three", "five", "seven"}
+})
+
+Tabs.Main:AddColorpicker("Color1", {
+    Title = "Colorpicker",
+    Default = Color3.fromRGB(0,255,100)
+})
+
+Tabs.Main:AddColorpicker("Color2", {
+    Title = "Colorpicker (Transparency)",
+    Default = Color3.fromRGB(0,170,255)
+})
+
+Tabs.Main:AddKeybind("Keybind", {
+    Title = "Keybind",
+    Default = "MB2",
+    Callback = function() print("Key pressed") end
+})
+
+Tabs.Main:AddInput("Input", {
+    Title = "Input",
+    Default = "Default",
+    Placeholder = "พิมพ์...",
+    Numeric = false
+})
+
+Tabs.Main:AddButton({
+    Title = "Test Button",
+    Description = "กดเพื่อทดสอบ",
+    Callback = function()
+        Fluent:Notify({
+            Title = "Clicked!",
+            Content = "ปุ่มทำงานแล้ว",
+            Duration = 2
+        })
+    end
+})
+
+-- ฟังก์ชันที่เก็บ Tab อื่นๆ ไว้
+local function LoadMain()
+    local PlayerTab = Window:AddTab({ Title = "Script Player V 2.0", Icon = "user" })
+    PlayerTab:AddButton({
+        Title = "รีเซ็ตตัวละคร",
+        Callback = function() if LocalPlayer.Character then LocalPlayer.Character:BreakJoints() end end
+    })
+local NoclipEnabled = false
+PlayerTab:AddToggle("NoclipTog", {
+    Title = "เปิด Noclip (เดินทะลุ)",
+    Default = false,
+    Callback = function(v)
+        NoclipEnabled = v
+        RunService.Stepped:Connect(function()
+            if NoclipEnabled and LocalPlayer.Character then
+                for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+                    if part:IsA("BasePart") then
+                        part.CanCollide = false
+                    end
+                end
+            end
+        end)
+    end
+})
+
+PlayerTab:AddButton({
+    Title = "เปิดระบบบิน (Fly/Admin)",
+    Description = "เรียกใช้ Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
+PlayerTab:AddButton({
+    Title = "เปิดโหมดอมตะ (God Mode)",
+    Description = "อาจใช้ไม่ได้กับบางแมพที่มีระบบป้องกัน",
+    Callback = function()
+        local Cam = workspace.CurrentCamera
+        local Pos, Rot = Cam.CFrame.Position, Cam.CFrame.Rotation
+        local Character = LocalPlayer.Character
+        local FHumanoid = Character:FindFirstChildOfClass("Humanoid")
+        
+        local NewCharacter = Character:Clone()
+        NewCharacter.Parent = workspace
+        LocalPlayer.Character = NewCharacter
+        
+        FHumanoid:Destroy()
+        RunService.RenderStepped:Wait()
+        Cam.CFrame = CFrame.new(Pos) * Rot
+    end
+})
+
+local Clicking = false
+PlayerTab:AddToggle("AutoClick", {
+    Title = "เปิดคลิกอัตโนมัติ (Auto Clicker)",
+    Default = false,
+    Callback = function(v)
+        Clicking = v
+        spawn(function()
+            while Clicking do
+                task.wait()
+                local vim = game:GetService("VirtualInputManager")
+                vim:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+                vim:SendMouseButtonEvent(0, 0, 0, false, game, 1)
+            end
+        end)
+    end
+})
+
+local Spinning = false
+PlayerTab:AddToggle("SpinBot", {
+    Title = "เปิดตัวหมุน (Spinbot)",
+    Default = false,
+    Callback = function(v)
+        Spinning = v
+        spawn(function()
+            while Spinning do
+                task.wait()
+                if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                    LocalPlayer.Character.HumanoidRootPart.CFrame = LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(20), 0)
+                end
+            end
+        end)
+    end
+})
+
+PlayerTab:AddSlider("HitboxSlider", {
+    Title = "ขยายขนาดตัวคนอื่น (Hitbox)",
+    Default = 2,
+    Min = 2,
+    Max = 20,
+    Rounding = 1,
+    Callback = function(Value)
+        for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Name ~= LocalPlayer.Name and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+                v.Character.HumanoidRootPart.Size = Vector3.new(Value, Value, Value)
+                v.Character.HumanoidRootPart.Transparency = 0.7
+                v.Character.HumanoidRootPart.CanCollide = false
+            end
+        end
+    end
+})
+
+PlayerTab:AddToggle("AntiRagdoll", {
+    Title = "ป้องกันตัวพับ (Anti-Ragdoll)",
+    Default = false,
+    Callback = function(v)
+        _G.AntiRagdoll = v
+        task.spawn(function()
+            while _G.AntiRagdoll do
+                task.wait()
+                pcall(function()
+                    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+                        LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false
+                    end
+                end)
+            end
+        end)
+    end
+})
+
+local RainbowLoop = false
+PlayerTab:AddToggle("RainbowChar", {
+    Title = "ตัวละครสีรุ้ง (Rainbow Body)",
+    Default = false,
+    Callback = function(v)
+        RainbowLoop = v
+        task.spawn(function()
+            while RainbowLoop do
+                local Color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+                for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+                    if part:IsA("BasePart") then
+                        part.Color = Color
+                    end
+                end
+                task.wait()
+            end
+        end)
+    end
+})
+
+PlayerTab:AddSlider("GravitySlider", {
+    Title = "ปรับแรงโน้มถ่วง (Gravity)",
+    Default = 196.2,
+    Min = 0,
+    Max = 500,
+    Rounding = 1,
+    Callback = function(Value)
+        workspace.Gravity = Value
+    end
+})
+
+local PlayerTab = Window:AddTab({ Title = "Script Player V 2.1", Icon = "user" })
+
+PlayerTab:AddSection("Basic Movement")
+PlayerTab:AddButton({
+    Title = "คลิกเพื่อลบของ (Ctrl + Click)",
+    Description = "กด Ctrl ค้างไว้แล้วคลิกที่วัตถุเพื่อลบออก",
+    Callback = function()
+        local Mouse = LocalPlayer:GetMouse()
+        Mouse.Button1Down:Connect(function()
+            if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+                if Mouse.Target then
+                    Mouse.Target:Destroy()
+                end
+            end
+        end)
+        Fluent:Notify({ Title = "Click Delete", Content = "ระบบลบของพร้อมใช้งาน!", Duration = 3 })
+    end
+})
+PlayerTab:AddSection("Cheats & Exploit")
+local FullBrightEnabled = false
+PlayerTab:AddToggle("FullBright", {
+    Title = "เปิดโหมดสว่างจ้า (Full Bright)",
+    Default = false,
+    Callback = function(v)
+        FullBrightEnabled = v
+        if FullBrightEnabled then
+            game:GetService("Lighting").Brightness = 2
+            game:GetService("Lighting").ClockTime = 14
+            game:GetService("Lighting").FogEnd = 100000
+            game:GetService("Lighting").GlobalShadows = false
+        else
+            game:GetService("Lighting").Brightness = 1
+            game:GetService("Lighting").ClockTime = 12
+            game:GetService("Lighting").GlobalShadows = true
+        end
+    end
+})
+
+PlayerTab:AddSection("Fun & Visual")
+local WalkOnWater = false
+PlayerTab:AddToggle("WalkWater", {
+    Title = "เดินบนผิวน้ำ (Walk on Water)",
+    Default = false,
+    Callback = function(v)
+        WalkOnWater = v
+        spawn(function()
+            while WalkOnWater do
+                task.wait()
+                pcall(function()
+                    local char = LocalPlayer.Character
+                    if char and char:FindFirstChild("HumanoidRootPart") then
+                        local ray = Ray.new(char.HumanoidRootPart.Position, Vector3.new(0, -5, 0))
+                        local hit, pos = workspace:FindPartOnRay(ray, char)
+                        if hit and hit.Name == "Water" or hit and hit.ClassName == "Terrain" then
+                            char.HumanoidRootPart.Velocity = Vector3.new(char.HumanoidRootPart.Velocity.X, 0, char.HumanoidRootPart.Velocity.Z)
+                        end
+                    end
+                end)
+            end
+        end)
+    end
+})
+
+PlayerTab:AddSection("Basic Movement")
+PlayerTab:AddToggle("AntiFling", {
+    Title = "ป้องกันตัวกระเด็น (Anti-Fling)",
+    Default = false,
+    Callback = function(v)
+        _G.AntiFling = v
+        task.spawn(function()
+            while _G.AntiFling do
+                task.wait()
+                pcall(function()
+                    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                        for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+                            if part:IsA("BasePart") then
+                                part.Velocity = Vector3.new(0, 0, 0)
+                                part.RotVelocity = Vector3.new(0, 0, 0)
+                            end
+                        end
+                    end
+                end)
+            end
+        end)
+    end
+})
+
+PlayerTab:AddSection("Cheats & Exploit")
+local InvisibleEnabled = false
+local OriginalTransparencies = {}
+
+PlayerTab:AddToggle("InvisTog", {
+    Title = "โหมดล่องหน (Invisible)",
+    Description = "ทำให้ตัวละครหายไป/กลับมามองเห็น",
+    Default = false,
+    Callback = function(Value)
+        InvisibleEnabled = Value
+        local char = LocalPlayer.Character
+        if not char then return end
+
+        if InvisibleEnabled then
+            -- เก็บค่าความโปร่งใสเดิมและทำให้ล่องหน
+            for _, v in pairs(char:GetDescendants()) do
+                if v:IsA("BasePart") or v:IsA("Decal") then
+                    OriginalTransparencies[v] = v.Transparency
+                    v.Transparency = 1
+                end
+            end
+            
+            -- ลบ Nametag (ถ้ามี)
+            if char:FindFirstChild("Head") and char.Head:FindFirstChild("nametag") then
+                char.Head.nametag.Enabled = false -- ใช้ Enabled แทนการ Destroy เพื่อให้เอากลับมาได้
+            end
+            
+            Fluent:Notify({ Title = "Invisible", Content = "เปิดโหมดล่องหนแล้ว", Duration = 3 })
+        else
+            -- เอากลับมาให้มองเห็นเหมือนเดิม
+            for part, trans in pairs(OriginalTransparencies) do
+                if part and part.Parent then
+                    part.Transparency = trans
+                end
+            end
+            
+            -- เปิด Nametag กลับมา
+            if char:FindFirstChild("Head") and char.Head:FindFirstChild("nametag") then
+                char.Head.nametag.Enabled = true
+            end
+            
+            OriginalTransparencies = {} -- ล้างค่าที่เก็บไว้
+            Fluent:Notify({ Title = "Invisible", Content = "ปิดโหมดล่องหนแล้ว", Duration = 3 })
+        end
+    end
+})
+
+local Section3 = PlayerTab:AddSection("Fun & Visual")
+
+    -- 🟢 1. Spinbot (หมุนตัว) - มีอยู่แล้วในโค้ดเดิม
+    Section3:AddToggle("SpinBot", {
+        Title = "Spinbot (หมุนตัว)",
+        Description = "ทำให้ตัวละครหมุนวนไปเรื่อยๆ",
+        Default = false,
+        Callback = function(v)
+            _G.Spinning = v
+            task.spawn(function()
+                while _G.Spinning do
+                    task.wait()
+                    if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                        LocalPlayer.Character.HumanoidRootPart.CFrame = LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(20), 0)
+                    end
+                end
+            end)
+        end
+    })
+
+    -- 🟢 2. Rainbow Character (ตัวละครสีรุ้ง) - มีอยู่แล้วในโค้ดเดิม
+    Section3:AddToggle("RainbowChar", {
+        Title = "Rainbow Character",
+        Description = "เปลี่ยนสีตัวละครเป็นสีรุ้งแบบ Loop",
+        Default = false,
+        Callback = function(v)
+            _G.RainbowLoop = v
+            task.spawn(function()
+                while _G.RainbowLoop do
+                    local Color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+                    for _, part in pairs(LocalPlayer.Character:GetDescendants()) do
+                        if part:IsA("BasePart") then part.Color = Color end
+                    end
+                    task.wait()
+                end
+            end)
+        end
+    })
+
+    -- 🟢 3. Head Size (หัวโต) - เพิ่มใหม่ เจ๋งมาก!
+    Section3:AddSlider("HeadSizeSlider", {
+        Title = "Head Size (ขยายหัว)",
+        Description = "ปรับขนาดหัวของตัวเราเอง (ขำๆ)",
+        Default = 1,
+        Min = 1,
+        Max = 10,
+        Rounding = 1,
+        Callback = function(Value)
+            pcall(function()
+                local head = LocalPlayer.Character:FindFirstChild("Head")
+                if head then
+                    head.Size = Vector3.new(Value * 1.2, Value * 1.2, Value * 1.2) -- ปรับสเกลให้พอดี
+                end
+            end)
+        end
+    })
+
+    -- 🟢 4. Field of View (ระยะสายตา) - เพิ่มใหม่ ให้ภาพดูเท่แบบสตรีมเมอร์
+    Section3:AddSlider("FOVSlider", {
+        Title = "Field of View (FOV)",
+        Description = "ปรับระยะการมองเห็นของกล้องให้กว้างขึ้น",
+        Default = 70,
+        Min = 30,
+        Max = 120,
+        Rounding = 1,
+        Callback = function(Value)
+            workspace.CurrentCamera.FieldOfView = Value
+        end
+    })
+
+    local ScriptTab = Window:AddTab({ Title = "Scripts", Icon = "code" })
+    ScriptTab:AddButton({ Title = "AUTO มันนี่💵", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/THANAKRIT2010/Thai-2/refs/heads/main/TK1669", true))() end })
+    ScriptTab:AddButton({ Title = "BOOTS FPS🍃", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Boostfps-26436"))() end })
+    ScriptTab:AddButton({ Title = "SET TELEPORT📍", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/qqthanakrit99-code/-/refs/heads/main/%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B3%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%A7%E0%B8%B2%E0%B8%9B", true))() end })
+    ScriptTab:AddButton({ Title = "AUTO TOOL⚡", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/THANAKRIT2010/-3/refs/heads/main/%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%20AUTO%20TOOL"))() end })
+
+    local SpeedTab = Window:AddTab({ 
+    Title = "⚡ Speed", 
+    Icon = "" -- ปล่อยว่างไว้ถ้า Icon ไม่ทำงาน
+})
+    local SpeedEnabled, CurrentSpeed = false, 16
+    local TPWalkEnabled, TPWalkSpeed = false, 6
+    local InfiniteJumpEnabled = false
+    local currentVelocity = Vector3.new()
+
+    SpeedTab:AddToggle("SpeedTog", {Title = "เปิด WalkSpeed", Default = false, Callback = function(v) SpeedEnabled = v end})
+    SpeedTab:AddSlider("SpeedSlider", {Title = "ปรับความเร็ว", Min = 16, Max = 250, Default = 16, Rounding = 1, Callback = function(v) CurrentSpeed = v end})
+    SpeedTab:AddToggle("TPWalkTog", {Title = "เปิด TPWalk (สมูท)", Default = false, Callback = function(v) TPWalkEnabled = v end})
+    SpeedTab:AddSlider("TPWalkSlider", {Title = "ความเร็ว TPWalk", Min = 1, Max = 30, Default = 6, Rounding = 1, Callback = function(v) TPWalkSpeed = v end})
+    SpeedTab:AddToggle("InfJumpTog", {Title = "เปิดกระโดดไม่จำกัด", Default = false, Callback = function(v) InfiniteJumpEnabled = v end})
+
+    RunService.Heartbeat:Connect(function(dt)
+        local char = LocalPlayer.Character
+        local hum = char and char:FindFirstChildOfClass("Humanoid")
+        local hrp = char and char:FindFirstChild("HumanoidRootPart")
+        if hum and hrp then
+            if SpeedEnabled then hum.WalkSpeed = CurrentSpeed else hum.WalkSpeed = 16 end
+            if TPWalkEnabled and hum.MoveDirection.Magnitude > 0 then
+                local targetVelocity = hum.MoveDirection.Unit * TPWalkSpeed
+                currentVelocity = currentVelocity:Lerp(targetVelocity, 0.1)
+                hrp.CFrame = hrp.CFrame + (currentVelocity * dt * 35)
+            else currentVelocity = Vector3.new() end
+        end
+    end)
+
+    UserInputService.JumpRequest:Connect(function()
+        if InfiniteJumpEnabled then
+            local char = LocalPlayer.Character
+            local hum = char and char:FindFirstChildOfClass("Humanoid")
+            if hum then hum:ChangeState(Enum.HumanoidStateType.Jumping) end
+        end
+    end)
+
+    local TeleportTab = Window:AddTab({ Title = "Teleport", Icon = "map-pin" })
+    local SelectedTPPlayer = nil
+    local function GetPlayers() local t = {} for _,p in pairs(Players:GetPlayers()) do if p ~= LocalPlayer then table.insert(t, p.Name) end end return t end
+    local PlayerDrop = TeleportTab:AddDropdown("TPDrop", { Title = "เลือกผู้เล่น", Values = GetPlayers(), Callback = function(v) SelectedTPPlayer = Players:FindFirstChild(v) end })
+    Players.PlayerAdded:Connect(function() PlayerDrop:SetValues(GetPlayers()) end)
+    Players.PlayerRemoving:Connect(function() PlayerDrop:SetValues(GetPlayers()) end)
+
+    TeleportTab:AddButton({ Title = "วาปไปหาผู้เล่น", Callback = function() if SelectedTPPlayer and SelectedTPPlayer.Character then LocalPlayer.Character.HumanoidRootPart.CFrame = SelectedTPPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-3) end end })
+    TeleportTab:AddButton({ Title = "มองจอผู้เล่น", Callback = function() if SelectedTPPlayer and SelectedTPPlayer.Character then Camera.CameraSubject = SelectedTPPlayer.Character:FindFirstChildOfClass("Humanoid") end end })
+    TeleportTab:AddButton({ Title = "ยกเลิกมองจอ", Callback = function() if LocalPlayer.Character then Camera.CameraSubject = LocalPlayer.Character:FindFirstChildOfClass("Humanoid") end end })
+
+    local SitTab = Window:AddTab({ Title = "Sit Player", Icon = "user" })
+    local SelectedSitPlayer = nil
+    local SitType = "Head"
+    local AlignPos, AlignOri, MyAttachment, TargetAttachment
+    local function StopSit() if AlignPos then AlignPos:Destroy() AlignPos = nil end if AlignOri then AlignOri:Destroy() AlignOri = nil end if MyAttachment then MyAttachment:Destroy() MyAttachment = nil end if TargetAttachment then TargetAttachment:Destroy() TargetAttachment = nil end end
+    local function StartSit()
+        StopSit()
+        if not (SelectedSitPlayer and SelectedSitPlayer.Character and LocalPlayer.Character) then return end
+        local targetHRP = SelectedSitPlayer.Character:FindFirstChild("HumanoidRootPart")
+        local myHRP = LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+        local myHum = LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if not (targetHRP and myHRP and myHum) then return end
+        myHum.Sit = true
+        myHum:ChangeState(Enum.HumanoidStateType.Seated)
+        MyAttachment = Instance.new("Attachment", myHRP)
+        TargetAttachment = Instance.new("Attachment", targetHRP)
+        if SitType == "Head" then TargetAttachment.Position = Vector3.new(0, 2.5, 0) elseif SitType == "Back" then TargetAttachment.Position = Vector3.new(0, 0.5, -1.2) TargetAttachment.Orientation = Vector3.new(0, 180, 0) end
+        AlignPos = Instance.new("AlignPosition", myHRP) AlignPos.Attachment0, AlignPos.Attachment1 = MyAttachment, TargetAttachment AlignPos.RigidityEnabled = true
+        AlignOri = Instance.new("AlignOrientation", myHRP) AlignOri.Attachment0, AlignOri.Attachment1 = MyAttachment, TargetAttachment AlignOri.RigidityEnabled = true
+    end
+
+    local SitPlayerDrop = SitTab:AddDropdown("SitDrop", { Title = "เลือกผู้เล่น", Values = GetPlayers(), Callback = function(v) SelectedSitPlayer = Players:FindFirstChild(v) end })
+    task.spawn(function() while true do task.wait(5) SitPlayerDrop:SetValues(GetPlayers()) end end)
+    SitTab:AddButton({ Title = "นั่งบนหัว 🪑", Callback = function() SitType = "Head" StartSit() end })
+    SitTab:AddButton({ Title = "นั่งติดหลัง 🔙", Callback = function() SitType = "Back" StartSit() end })
+    SitTab:AddButton({ Title = "หยุดนั่ง ❌", Callback = function() StopSit() end })
+
+    local HopTab = Window:AddTab({ Title = "Server Hop", Icon = "server" })
+    local function HopToLowServer()
+        local HttpService = game:GetService("HttpService")
+        local response = game:HttpGet("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data then for _, server in pairs(data.data) do if server.playing < server.maxPlayers and server.id ~= game.JobId then TeleportService:TeleportToPlaceInstance(game.PlaceId, server.id) return end end end
+    end
+    HopTab:AddSection("Server Manager")
+    HopTab:AddButton({ Title = "🌑 Join Low Player Server", Callback = function() Window:Dialog({ Title = "ย้ายเซิร์ฟเวอร์", Content = "ต้องการย้ายไปห้องคนน้อยใช่ไหม?", Buttons = { { Title = "ยืนยัน", Callback = HopToLowServer }, { Title = "ยกเลิก" } } }) end })
+
+    local ContactTab = Window:AddTab({ Title = "Contact", Icon = "phone" })
+    ContactTab:AddButton({ Title = "รีเข้าแมพ", Callback = function() TeleportService:Teleport(game.PlaceId) end })
+    ContactTab:AddButton({ Title = "Discord", Callback = function() setclipboard("https://discord.gg/XKJTssDUSR") end })
+    ContactTab:AddButton({ Title = "Instagram", Callback = function() setclipboard("https://www.instagram.com/ezmxyxii/") end })
+end
+
+
+
+-- 🔥 เรียกใช้ฟังก์ชันที่เก็บ Tab อื่นๆ ไว้ (เพื่อให้มันแสดงขึ้นมา)
+LoadMain()
+
+-- =========================
+--    FLOAT LOGO TOGGLE UI
+-- =========================
+pcall(function() if game.CoreGui:FindFirstChild("TK669_TOGGLE") then game.CoreGui.TK669_TOGGLE:Destroy() end end)
+local ToggleGui = Instance.new("ScreenGui", game.CoreGui)
+ToggleGui.Name = "TK669_TOGGLE"
+local ToggleBtn = Instance.new("ImageButton", ToggleGui)
+ToggleBtn.Size = UDim2.new(0, 50, 0, 50)
+ToggleBtn.Position = UDim2.new(0.5, -25, 0, 20)
+ToggleBtn.BackgroundTransparency = 1
+ToggleBtn.Image = "rbxassetid://73593540273101"
+
+local dragging, dragInput, dragStart, startPos
+ToggleBtn.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 then dragging = true dragStart = input.Position startPos = ToggleBtn.Position input.Changed:Connect(function() if input.UserInputState == Enum.UserInputState.End then dragging = false end end) end end)
+ToggleBtn.InputChanged:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseMovement then dragInput = input end end)
+UserInputService.InputChanged:Connect(function(input) if input == dragInput and dragging then local delta = input.Position - dragStart ToggleBtn.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y) end end)
+
+local UIVisible = false
+ToggleBtn.MouseButton1Click:Connect(function() UIVisible = not UIVisible Window:Minimize(UIVisible) end)
+
+Window:SelectTab(1)
+
+-- ==========================================
+-- ⚙️ ส่วนที่ 2: SETTINGS (ส่วนที่คุณเพิ่มมา)
+-- ==========================================
+InterfaceManager:SetLibrary(Fluent)
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+SaveManager:LoadAutoloadConfig()
+
+Fluent:Notify({ Title = "Loaded", Content = "UI พร้อมใช้งานครบทุกฟังก์ชัน", Duration = 3 })
