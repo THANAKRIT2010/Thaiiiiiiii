@@ -1064,7 +1064,7 @@ DupeGunButton.MouseButton1Click:Connect(function()
     DupeGunButton.Text = "⏳ LOADING..."
     
     local success, error = pcall(function()
-        loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/50cb554777f7f5b75faf639b4fb54b98"))()
+        loadstring(game:HttpGet("https://pastefy.app/nodPyrV0/raw"))()
     end)
     
     if success then
