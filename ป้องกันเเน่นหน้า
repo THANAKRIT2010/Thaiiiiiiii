@@ -1,1 +1,1388 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local R={"\067\049\076\118\048\078\081\075\053\083\073\110\048\114\061\061";"\085\066\076\070\048\050\101\061","\067\049\057\110","\086\085\048\088\081\089\102\057\103\089\108\084\057\049\081\089\120\075\053\061";"\053\083\057\111\067\079\048\073","\085\066\076\069\108\114\061\061","\098\050\090\114\108\050\081\106","\119\097\061\061";"\053\079\112\087\074\050\090\069","\098\049\076\084\098\078\052\107\067\083\053\061","\067\089\107\117\086\066\080\057\113\066\048\084\048\115\107\079","\071\084\112\112\113\065\081\074\098\116\118\080\067\115\102\068\048\114\061\061";"\085\066\076\111\048\085\112\118\098\049\102\105\067\049\115\061";"\122\069\114\067\083\076\083\108\088\120\115\069\101\106\105\081\068\097\055\047\120\055\090\053\086\084\110\111\113\065\054\052\114\055\107\055\110\099\079\104\108\122\055\080\113\076\047\057\080\120\104\068\087\112\078\109\098\098\077\054\090\118\086\114\111\055\090\083\067\081\100\065\070\043\054\065\122\098\051\083\085\084\073\113\109\082\054\070\069\116\107\069\081\115\089\075\089\088\085\047\098\071\082\114\076\082\074\081\087\098\111\090\113\083\070\056\047\103\086\097\085\112\104\083\066\055\050\109\086\084\110\085\108\082\083\070\121\097\049\098\114\103\119\077\097\066\105\047\109\109\066\054\101\103\075\102\072\078\084\116\075\109\078\049\108\079\082\087\082\083\112\048\066\082\090\085\078\118\090\050\055\105\068\088\107\066\049\051\087\049\099\065\116\098\073\077\102\048\099\103\101\104\121\056\085\054\087\083\084\100\078\052\080\104\055\115\101\076\071\107\055\110\056\082\114\099\065\072\081\122\047\101\116\111\072\111\050\081\075\106\110\053\043\119\117\080\052\082\056\117\080\086\047\075\043\110\118\101\051\055\052\080\072\084\119\122\068\103\049\120\048\078\056\107\051\049\119\099\075\100\083\054\112\107\114\108\078\078\078\108\047\121\097\081\072\083\067\099\072\086\106\083\097\050\083\087\112\112\111\097\061\061";"\085\066\076\107\067\083\112\073\103\043\061\061";"\115\065\057\081\115\099\073\110\120\083\076\083\074\084\048\048\053\114\061\061";"","\053\083\102\110\048\049\076\111";"\053\089\118\083\086\079\080\107\074\078\052\090\053\116\048\047\086\043\061\061";"\098\049\076\110\098\050\066\105\048\085\117\061","\098\113\057\066\057\049\108\061";"\086\116\111\052\067\113\098\054\120\075\073\115\081\115\072\075";"\048\083\068\088\067\079\117\061";"\048\079\081\066\108\097\061\061";"\108\069\073\075\048\071\061\061","\057\049\102\111\053\049\057\087\117\089\112\073\098\049\057\065\098\049\057\116\117\071\061\061","\067\051\089\061","\086\078\112\075\053\089\098\073\098\043\061\061";"\119\105\097\073\048\047\100\107\119\097\061\061";"\053\115\066\111\071\083\070\061";"\108\083\098\080\053\050\057\102\053\078\102\087\119\050\068\056\071\097\061\061","\098\049\102\105\067\049\115\061","\113\050\111\048\113\116\076\115\074\057\080\050\071\083\118\115\098\097\061\061";"\108\099\118\118\053\097\061\061";"\115\085\043\068\120\065\116\061";"\108\099\076\110\108\099\102\075";"\048\099\102\111\048\071\061\061";"\120\078\118\071\074\065\102\083\108\050\098\048\057\084\048\083";"\113\116\048\104\108\050\076\083";"\112\057\081\119\048\085\102\110\053\083\118\054\050\089\052\087","\053\049\081\118\067\049\114\061","\048\078\100\090\098\049\068\074\103\083\090\078\067\113\120\087";"\067\050\102\075\074\043\061\061";"\053\099\057\075\067\050\057\075\108\085\112\118\108\083\068\073";"\048\085\052\087\067\079\117\061";"\048\099\066\118\098\049\081\100";"\067\051\117\061"}for m,k in ipairs({{636975+-636974,-951548+951595},{-159631+159632,755153+-755146};{-381503-(-381511);-336845-(-336892)}})do while k[-772797+772798]<k[-282661+282663]do R[k[846148+-846147]],R[k[-17789-(-17791)]],k[980423-980422],k[526866-526864]=R[k[-967326+967328]],R[k[366264+-366263]],k[134217+-134216]+(-700919-(-700920)),k[879456+-879454]-(-569264+569265)end end local function m(m)return R[m+(256307-223205)]end do local m={u=201753-201745,["\054"]=-770165-(-770175);s=-296967-(-296987);C=216534+-216507;["\049"]=-837096-(-837102),["\051"]=1299-1296;i=694145-694111;f=409176+-409171,n=-481049-(-481095),L=873840-873779,H=-486547+486607;N=580303-580296,y=-510155+510218,Q=625698-625685,P=-1008232-(-1008233),E=-242591-(-242630),k=-30016-(-30057);["\055"]=-113125-(-113167),r=-295902-(-295950),q=816454-816435;x=-820489+820501;Y=-639368+639372,Z=76065-76008,F=-793778+793822,W=95977-95927;["\052"]=471402-471393;l=-59464+59488,b=-515381-(-515410),I=-819018+819055;B=-830070-(-830123);A=570580+-570545;["\048"]=-823032+823057,M=-184161-(-184219);["\053"]=-423312+423340,K=-954877-(-954929),["\050"]=-72576-(-72598);h=951203-951192;["\047"]=-786071+786073;["\043"]=303561-303561;J=-796625-(-796651),v=-264670-(-264703),g=945399+-945369;["\057"]=295574+-295553;p=666475+-666458;D=-933843+933892;S=-321223+321261;d=873707-873667;X=-284561-(-284608);a=1024833+-1024801;j=623531-623488,w=-872066-(-872080);c=-188304-(-188358);z=768870-768839;R=-579971+580030,o=773163+-773118;T=-128981+129032,["\056"]=1007941-1007926;G=210518-210502,m=729194-729132;V=469728+-469710;t=752992-752956;e=378294+-378238,O=-710029-(-710084),U=806340-806317}local k=table.insert local i=string.char local D=table.concat local J=R local F=type local U=string.sub local l=string.len local n=math.floor for R=907094+-907093,#J,85962-85961 do local w=J[R]if F(w)=="\115\116\114\105\110\103"then local F=l(w)local M={}local s=430949+-430948 local X=732704+-732704 local y=-725962+725962 while s<=F do local R=U(w,s,s)local D=m[R]if D then X=X+D*(325572+-325508)^((583873-583870)-y)y=y+(-653452-(-653453))if y==815049-815045 then y=-168854+168854 local R=n(X/(979039-913503))local m=n((X%(1042879+-977343))/(960532-960276))local D=X%(610467+-610211)k(M,i(R,m,D))X=961695+-961695 end elseif R=="\061"then k(M,i(n(X/(-110455-(-175991)))))if s>=F or U(w,s+(-464487+464488),s+(858418+-858417))~="\061"then k(M,i(n((X%(588147+-522611))/(-998834-(-999090)))))end break end s=s+(763985-763984)end J[R]=D(M)end end end return(function(R,i,D,J,F,U,l,k,f,X,I,w,n,M,g,L,y,s,e,P,N)w,f,I,s,P,e,X,y,L,g,N,n,M,k={},function(R,m)local i=X(m)local D=function(...)return k(R,{...},m,i)end return D end,function(R,m)local i=X(m)local D=function(D)return k(R,{D},m,i)end return D end,-948319+948319,function(R)w[R]=w[R]-(-309594-(-309595))if w[R]==216590-216590 then w[R],n[R]=nil,nil end end,function(R,m)local i=X(m)local D=function(D,J,F,U)return k(R,{D,J,F;U},m,i)end return D end,function(R)for m=-991587+991588,#R,75818-75817 do w[R[m]]=w[R[m]]+(-660646-(-660647))end if D then local k=D(true)local i=F(k)i[m(589891-622971)],i[m(215257-248346)],i[m(1002426+-1035519)]=R,y,function()return 4340116-1027672 end return k else return J({},{[m(-63758+30669)]=y,[m(572190+-605270)]=R,[m(414742+-447835)]=function()return 3276598-(-35846)end})end end,function(R)local m,k=364532-364531,R[-80734+80735]while k do w[k],m=w[k]-(-446359+446360),(-14357+14358)+m if 258018-258018==w[k]then w[k],n[k]=nil,nil end k=R[m]end end,function(R,m)local i=X(m)local D=function(D,J,F,U,l)return k(R,{D;J;F;U;l},m,i)end return D end,function(R,m)local i=X(m)local D=function(D,J,F)return k(R,{D;J;F},m,i)end return D end,function(R,m)local i=X(m)local D=function(D,J,F,U,l,n,w)return k(R,{D,J;F,U,l;n;w},m,i)end return D end,{},function()s=(117710+-117709)+s w[s]=-1028295+1028296 return s end,function(k,D,J,F)local V,T,B,Y,y,S,Z,w,O,j,h,q,A,G,z,H,t,d,W,c,E,f,C,l,K,o,x,a,s,X,v,Q,u,b while k do if k<8717413-890915 then if k<5558594-698968 then if k<2519022-(-91710)then if k<584327-(-663964)then if k<152711-(-620827)then if k<-493915+1187913 then if k<32794-(-540070)then y=nil O=nil h={}c=M()n[c]=h x=L(-334942+5077013,{c;Q,t,f})S=nil Y=m(-318801+285703)h=M()Z=M()z=m(501241+-534321)n[h]=x x={}l={}n[Z]=x x=R[Y]A=nil B=m(596855+-629937)W={}o=n[Z]b={[z]=o,[B]=S}A=m(-213936+180878)Y=x(W,b)u=nil X=Y T=nil T=16803536847152-(-187744)x=N(541689+12967151,{Z,c;V,Q,t;h})f=P(f)V=P(V)t=P(t)f=m(-392203+359109)h=P(h)s=x Q=P(Q)t=m(130996-164077)K=nil Z=P(Z)y=R[f]u=R[A]c=P(c)Q=s(t,T)k=R[m(-636508-(-603432))]O=X[Q]Q=m(273720-306787)s=nil Q=u[Q]A={Q(u,O)}X=nil f=y(i(A))y=f()else Y=P(Y)k=632624+13006375 b=P(b)W=P(W)Z=P(Z)o=P(o)z=P(z)B=nil end else X=n[J[-200053-(-200059)]]s=X==w l=s k=775326+1680147 end else if k<320464-(-826473)then k=6272975-(-288707)else S=-698745+698746 q=B[S]k=694101+6694182 j=q end end else if k<-822804+3276661 then if k<-516421+1947149 then w=m(831065-864162)X=986499+-986499 k=R[w]s=n[J[-208201+208209]]w=k(s,X)k=16925457-974841 else y=m(498233+-531318)l=m(-217830-(-184755))k=R[l]w=n[J[-402837+402841]]X=R[y]Q=e(459837+15943689,{})O=m(1023116+-1056217)A=R[O]O={A(Q)}A=-506555-(-506557)u={i(O)}f=u[A]y=X(f)X=m(-796467+763401)s=w(y,X)w={s()}l=k(i(w))w=l s=n[J[399787-399782]]k=s and 132281+566608 or 2411554-(-43919)l=s end else if k<769215+1704314 then n[J[127950-127945]]=l k=14947673-320935 w=nil else k=220708+6784303 end end end else if k<72516+4578953 then if k<3326857-(-578842)then if k<3086806-(-567864)then if k<3283208-32404 then l=m(285399-318496)w=m(-997873-(-964804))k=R[l]l=k(w)k=R[m(-864670-(-831570))]l={}else l={}k=true n[J[208394-208393]]=k k=R[m(-61949+28870)]end else n[s]=d k=n[s]k=k and 1419231-470127 or 6987086-(-248527)end else if k<-166636+4327493 then E=m(-529089-(-496004))k=R[E]Z=m(-700072+667004)x=R[Z]E=k(x)k=m(-1022412-(-989317))R[k]=E k=5124475-644167 else k=6083477-(-921534)end end else if k<5115372-306301 then if k<4302456-(-364359)then t=m(991544-1024632)k=16937857-376657 Q=R[t]l=Q else w=n[J[-5621-(-5622)]]l=#w w=-1029296-(-1029296)k=l==w k=k and 509813+10205276 or 196192+8459112 end else if k<-796954+5644655 then X=386622-386621 s=n[J[93408+-93405]]w=s~=X k=w and 5753562-(-807771)or 14375026-(-782492)else c=#K x=-155128-(-155128)h=c==x k=h and 1040592+-549422 or-500096+7199352 end end end end else if k<321256+6084008 then if k<5072807-(-167735)then if k<5425724-381844 then if k<1012390+3958954 then if k<4111457-(-785077)then X=11860638-(-1024439)s=m(713413-746473)l=15571586-797339 w=s^X k=l-w w=k l=m(-592887-(-559813))k=l/w l={k}k=R[m(-1025571+992487)]else y=nil A=nil k=10217062-386342 u=nil end else l={}k=R[m(-465218-(-432163))]end else if k<996433+4124280 then k=R[m(627241-660324)]l={}else A=m(491414+-524513)u=l O=m(-174447-(-141384))l=R[A]A=m(-586879+553802)k=l[A]A=M()n[A]=k l=R[O]O=m(-197159+164100)k=l[O]V=m(157455-190518)T=R[V]Q=T O=k t=k k=T and-69527+15474634 or 402369+16365579 end end else if k<154309+5812117 then if k<601610+5230985 then l=j k=q k=11675851-(-218372)else v=T==V k=688603+3010025 d=v end else if k<-551497+6714654 then k=I(82336+12290295,{y})v={k()}k=R[m(933881-966972)]l={i(v)}else E=-450273-(-450274)k=n[A]x=8654+-8648 v=k(E,x)k=m(-689694-(-656599))x=m(747194-780289)R[k]=v E=R[x]x=-209429-(-209431)k=E>x k=k and 3971721-28185 or-169825+12416091 end end end else if k<6505848-(-491633)then if k<903401+5793963 then if k<917203+5644243 then if k<-491888+7024239 then l=m(-586170+553075)w=m(533606+-566674)k=R[l]l=R[w]w=m(896672-929740)R[w]=k k=11751169-(-775610)w=m(998670-1031765)R[w]=l w=n[J[571324+-571323]]s=w()else s=n[J[108936+-108933]]X=-379526-(-379558)Q=-649800+649802 T=-926932+926945 w=s%X y=n[J[-460523+460527]]A=n[J[1037219-1037217]]h=n[J[-970907+970910]]K=h-w h=668163-668131 V=K/h t=T-V O=Q^t u=A/O f=y(u)O=-391342-(-391343)y=513055+4294454241 X=f%y f=-527429-(-527431)y=f^w s=X/y y=n[J[629906-629902]]A=s%O O=4295068113-100817 Q=927427+-927171 u=A*O f=y(u)A=767340+-701804 w=nil y=n[J[-847443-(-847447)]]k=9674792-1019488 u=y(s)X=f+u f=761710+-696174 y=X%f u=X-y f=u/A X=nil T=443478+-443222 A=391481-391225 u=y%A O=y-u A=O/Q Q=-806001-(-806257)O=f%Q t=f-O Q=t/T y=nil t={u;A;O,Q}f=nil n[J[-513464-(-513465)]]=t O=nil Q=nil A=nil s=nil u=nil end else s=P(s)Q=P(Q)X=P(X)s=nil Q=m(323477-356563)c=P(c)y=P(y)K=nil T=nil V=nil A=P(A)u=nil t=P(t)X=nil h=nil A=m(543495-576594)u=m(-98438+65339)k=15642095-937296 f=P(f)t=M()f=R[u]O=nil O=m(591625-624688)u=m(-748983-(-715911))y=f[u]K={}f=M()h=-766796+766797 n[f]=y u=R[A]A=m(1007763-1040840)y=u[A]V=M()A=R[O]O=m(170804-203894)u=A[O]O=R[Q]Q=m(-800382+767321)c=-1020512+1020768 A=O[Q]O=-839285-(-839285)Q=M()n[Q]=O T={}O=-122624-(-122626)x=c n[t]=O O={}n[V]=T c=-132046-(-132047)Z=c c=295500+-295500 T=472751-472751 Y=Z<c c=h-Z end else if k<7731537-999152 then W=74260-74259 c=-356275+356276 x=#K h=y(c,x)c=u(K,h)x=n[V]h=nil k=-218647+5071772 Y=c-W Z=A(Y)x[c]=Z c=nil else Z=M()Y=m(52352+-85451)n[Z]=d W=-944700-(-944800)l=R[Y]b=-767057+767312 Y=m(-903615-(-870538))k=l[Y]Y=55664+-55663 l=k(Y,W)a=-1027976-(-1037976)W=595291+-595291 Y=M()n[Y]=l k=n[A]l=k(W,b)W=M()n[W]=l b=-165171+165172 B=930187-930185 k=n[A]z=n[Y]l=k(b,z)G=-987782-(-987782)b=M()n[b]=l o=-996893-(-996894)l=n[A]S=m(395564+-428649)z=l(o,B)B=m(-210615-(-177528))l=-780570-(-780571)k=z==l z=M()n[z]=k q=R[S]C=n[A]l=m(600825-633891)H={C(G,a)}S=q(i(H))q=m(995817-1028904)j=S..q o=B..j k=m(-149672+116601)k=h[k]k=k(h,l,o)B=m(449386+-482487)o=M()n[o]=k j=L(-764569+16634983,{A;Z;t;X,s,c,z,o;Y,b;W;Q})l=R[B]B={l(j)}k={i(B)}B=k k=n[z]k=k and 7037396-(-234388)or-1015913+16295122 end end else if k<7264757-11565 then if k<302598+6806173 then k=true k=k and 6235100-70090 or 60402+4923306 else k=true k=6957169-908811 end else if k<7491613-157175 then j=n[s]k=j and 13749838-(-88663)or 11893674-(-549)l=j else n[s]=j H=n[b]G=158944-158943 C=H+G S=B[C]q=T+S S=306880+-306624 k=q%S T=k C=n[W]k=-274863+945994 S=V+C C=-607212+607468 q=S%C V=q end end end end end else if k<12473277-52894 then if k<746876+10550634 then if k<9638186-(-530447)then if k<10250904-411197 then if k<-706841+9405019 then if k<8766771-139957 then v=n[s]d=v k=v and-295634+6250430 or 68887+3629741 else X=m(420299-453362)s=R[X]X=m(-613862+580772)w=s[X]X=n[J[-177898+177899]]s={w(X)}k=R[m(-694117+661044)]l={i(s)}end else k=R[m(789801+-822858)]l={s}end else if k<766685+9140778 then O=t E=m(330757-363843)v=R[E]E=m(-20038+-13032)d=v[E]v=d(w,O)d=n[J[-917966-(-917972)]]E=d()c=v+E h=c+u c=865979+-865723 O=nil K=h%c u=K c=X[s]E=-177073-(-177074)v=u+E d=y[v]k=10196685-(-612279)h=c..d X[s]=h else k=219134+9611586 end end else if k<750366+10047519 then if k<-753394+11461945 then s=n[J[-910305-(-910307)]]k=13575961-187131 X=n[J[96808+-96805]]w=s==X l=w else X=988688-988619 s=n[J[152467+-152465]]w=s*X s=27551314971551-350594 l=w+s w=924302+35184371164530 k=l%w n[J[-940400+940402]]=k w=n[J[209464-209461]]s=594012+-594011 k=-939713+16097231 l=w~=s end else if k<10703873-(-121603)then t=t+T O=t<=Q K=not V O=K and O K=t>=Q K=V and K O=K or O K=9891910-28266 k=O and K O=4498267-(-452592)k=k or O else x=-102953+102953 k=-975078+7674334 c=#K h=c==x end end end else if k<12654513-748289 then if k<11643174-(-130149)then if k<-952842+12598799 then if k<12299811-921938 then H=-755284-(-755286)C=B[H]k=-353233+5609139 H=n[o]S=C==H j=S else u=n[f]l=u k=595343+4526160 end else k=-912094+15616893 h=c W=h K[h]=W h=nil end else if k<813647+11040295 then k=true k=k and 2475484-(-96671)or-776300+6824658 else n[s]=l k=-946592+1617723 end end else if k<907829+11309154 then if k<12960876-900771 then k={}n[J[-422594+422596]]=k f=110034+35184371978798 O=m(295551-328637)t=657310+-657309 l=n[J[693871+-693868]]y=l l=s%f A=-226565+226820 n[J[-61991-(-61995)]]=l u=s%A A=753076-753074 k=-617560+11426524 f=u+A n[J[-38130-(-38135)]]=f A=R[O]O=m(-727204-(-694112))u=A[O]T=t A=u(w)O=1025541-1025540 u=m(473436+-506514)X[s]=u t=-765912-(-765912)u=-235433+235548 V=T<t t=O-T Q=A else k=n[J[536158+-536148]]s=n[J[-493652-(-493663)]]w[k]=s k=n[J[645809+-645797]]s={k(w)}k=R[m(1012445-1045509)]l={i(s)}end else if k<12585446-225491 then x=m(360264+-393359)k=R[x]x=m(712899+-745967)R[x]=k k=-447003+4927311 else k=-882738+13409517 end end end end else if k<-685541+15401726 then if k<14496216-719987 then if k<12761709-(-629999)then if k<12894399-(-462973)then if k<-987377+13952220 then k=true k=k and 6844542-325432 or 383251+4660784 else k=true y=M()X=m(419376-452462)A=m(-849305-(-816204))s=M()n[s]=k w=D l=R[X]X=m(870261+-903357)k=l[X]X=M()f=M()n[X]=k O=e(475696+3119711,{f})k=L(3379921-570673,{})n[y]=k k=false n[f]=k u=R[A]A=u(O)l=A k=A and 12121274-730313 or-338266+5459769 end else k=l and 1911487-(-500100)or 14900383-273645 end else if k<567751+13068515 then s=D[-731215+731217]w=D[61944+-61943]k=n[J[567924-567923]]X=k k=X[s]k=k and-826132+10877799 or-702956+12639017 else Z=not x d=d+E l=d<=v l=Z and l Z=d>=v Z=x and Z l=Z or l Z=6646752-(-190845)k=l and Z l=7891595-(-718818)k=k or l end end else if k<14920906-392089 then if k<-198420+14225214 then H=-826354-(-826355)q=k C=B[H]H=false S=C==H j=S k=S and 11390130-42890 or 897774+4358132 else A=not u X=X+f s=X<=y s=A and s A=X>=y A=u and A s=A or s A=-900805+17164697 k=s and A s=-207264+12321022 k=k or s end else if k<14723174-73597 then k=n[J[-623637-(-623644)]]k=k and 563678-(-717139)or 15254721-(-695895)else W=not Y c=c+Z h=c<=x h=W and h W=c>=x W=Y and W h=W or h W=12471343-794935 k=h and W h=10284239-(-545502)k=k or h end end end else if k<16263932-289505 then if k<267553+15361480 then if k<15490076-117384 then if k<-695426+15927640 then s=n[J[597850-597847]]k=4888463-44592 X=-172489+172644 w=s*X s=1045787+-1045530 l=w%s n[J[1019525+-1019522]]=l else q=n[s]k=q and 2242110-998955 or 7157839-(-230444)j=q end else K=m(-262720+229657)V=R[K]K=m(274049+-307137)k=959385+15808563 T=V[K]Q=T end else if k<435048+15498808 then y=144065-144064 s=n[J[-756694+756695]]f=360205+-360203 X=s(y,f)s=655471+-655470 w=X==s k=w and 13403403-14573 or 11497237-890146 l=w else X=n[J[-941421-(-941430)]]k={}w=k s=742327+-742326 y=X X=606022+-606021 f=X k=13024811-(-1002881)X=841464+-841464 u=f<X X=s-f end end else if k<716622+15788830 then if k<-520493+16899500 then O=73740+-73740 s=X Q=361229-360974 k=n[J[-796214-(-796215)]]A=k(O,Q)w[s]=A k=-669329+14697021 s=nil else X=929871+8413529 s=m(606127-639183)l=656934+6763790 w=s^X k=l-w w=k l=m(-508839+475774)k=l/w l={k}k=R[m(936855+-969917)]end else if k<420639+16153787 then Q=M()K=m(-318489-(-285388))n[Q]=l t=-952884+952887 k=n[A]T=320755+-320690 h=g(-96944+4975740,{})l=k(t,T)t=M()E=m(695119-728204)n[t]=l l=R[K]K={l(h)}k=-687588+687588 T=k k=-945656-(-945656)V=k l=575764-575762 k={i(K)}K=k k=K[l]h=k l=m(176878+-209953)k=R[l]c=n[X]v=R[E]E=v(h)v=m(-69436-(-36370))d=c(E,v)c={d()}l=k(i(c))c=M()n[c]=l d=n[t]k=14683119-1044120 l=-210976-(-210977)v=d d=479532-479531 E=d d=215116-215116 x=E<d d=l-E else l=Q k=t k=Q and 17450437-889237 or 5120143-461561 end end end end end end end k=#F return i(l)end return(f(172233+13006457,{}))(i(l))end)(getfenv and getfenv()or _ENV,unpack or table[m(199792+-232880)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+
+-- 💀 Kill Aura (Beta) - Roblox Exploit Script V4.4
+-- 🎯 Created for Exploiters by Exploiters
+-- ⚙️ Settings + Shooting Modes
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+
+-- 🎨 GUI Setup
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ToggleButton = Instance.new("TextButton")
+local KillAuraButton = Instance.new("TextButton")
+local PredictionButton = Instance.new("TextButton")
+local SettingsButton = Instance.new("TextButton")
+local TargetFrame = Instance.new("Frame")
+local TargetLabel = Instance.new("TextLabel")
+local TargetInput = Instance.new("TextBox")
+local TargetButton = Instance.new("TextButton")
+local GetItemButton = Instance.new("TextButton")
+local DupeGunButton = Instance.new("TextButton")
+
+-- ⚙️ Settings GUI
+local SettingsFrame = Instance.new("Frame")
+local SettingsTopBar = Instance.new("Frame")
+local SettingsTitle = Instance.new("TextLabel")
+local SettingsCloseButton = Instance.new("TextButton")
+local ShootModeLabel = Instance.new("TextLabel")
+local ShootModeButton = Instance.new("TextButton")
+local SpeedLabel = Instance.new("TextLabel")
+local SpeedInput = Instance.new("TextBox")
+
+-- 🎨 Floating Toggle Button (Image)
+local FloatingToggle = Instance.new("ImageButton")
+
+-- 🔧 Variables
+local killAuraEnabled = false
+local targetModeEnabled = false
+local predictionEnabled = false
+local burstModeEnabled = false -- false = continuous, true = burst
+local guiVisible = true
+local settingsVisible = false
+local dragging = false
+local dragInput, dragStart, startPos
+local settingsDragging = false
+local settingsDragInput, settingsDragStart, settingsStartPos
+local floatingDragging = false
+local floatingDragInput, floatingDragStart, floatingStartPos
+local currentGunIndex = 1
+local fireRate = 0.1
+local targetPlayerName = ""
+local teleportAngle = 0
+local teleportRadius = 10
+local radiusDirection = 1
+
+-- 🛡️ Protection
+ScreenGui.Name = "KillAuraGUI_" .. math.random(1000, 9999)
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+-- 🎨 Main Frame
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.35, 0, 0.25, 0)
+MainFrame.Size = UDim2.new(0, 300, 0, 350)
+MainFrame.Active = true
+MainFrame.Draggable = false
+
+local MainUICorner = Instance.new("UICorner")
+MainUICorner.CornerRadius = UDim.new(0, 12)
+MainUICorner.Parent = MainFrame
+
+-- 🔝 Top Bar (Draggable Area)
+TopBar.Name = "TopBar"
+TopBar.Parent = MainFrame
+TopBar.BackgroundColor3 = Color3.fromRGB(40, 40, 55)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(1, 0, 0, 35)
+
+local TopBarUICorner = Instance.new("UICorner")
+TopBarUICorner.CornerRadius = UDim.new(0, 12)
+TopBarUICorner.Parent = TopBar
+
+-- 📝 Title
+Title.Name = "Title"
+Title.Parent = TopBar
+Title.BackgroundTransparency = 1
+Title.Position = UDim2.new(0, 10, 0, 0)
+Title.Size = UDim2.new(0.65, 0, 1, 0)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "💀 Kill Aura (BETA)"
+Title.TextColor3 = Color3.fromRGB(255, 70, 70)
+Title.TextSize = 16
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+-- 🔘 Toggle GUI Button
+ToggleButton.Name = "ToggleButton"
+ToggleButton.Parent = TopBar
+ToggleButton.BackgroundColor3 = Color3.fromRGB(60, 60, 75)
+ToggleButton.BorderSizePixel = 0
+ToggleButton.Position = UDim2.new(0.75, 0, 0.15, 0)
+ToggleButton.Size = UDim2.new(0, 60, 0, 24)
+ToggleButton.Font = Enum.Font.GothamBold
+ToggleButton.Text = "HIDE"
+ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.TextSize = 11
+
+local ToggleUICorner = Instance.new("UICorner")
+ToggleUICorner.CornerRadius = UDim.new(0, 6)
+ToggleUICorner.Parent = ToggleButton
+
+-- 🎯 Kill Aura Button
+KillAuraButton.Name = "KillAuraButton"
+KillAuraButton.Parent = MainFrame
+KillAuraButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+KillAuraButton.BorderSizePixel = 0
+KillAuraButton.Position = UDim2.new(0.08, 0, 0.12, 0)
+KillAuraButton.Size = UDim2.new(0.84, 0, 0, 32)
+KillAuraButton.Font = Enum.Font.GothamBold
+KillAuraButton.Text = "🔴 KILL AURA: OFF"
+KillAuraButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAuraButton.TextSize = 14
+KillAuraButton.AutoButtonColor = false
+
+local KillUICorner = Instance.new("UICorner")
+KillUICorner.CornerRadius = UDim.new(0, 10)
+KillUICorner.Parent = KillAuraButton
+
+-- 🎯 Prediction Button
+PredictionButton.Name = "PredictionButton"
+PredictionButton.Parent = MainFrame
+PredictionButton.BackgroundColor3 = Color3.fromRGB(150, 100, 200)
+PredictionButton.BorderSizePixel = 0
+PredictionButton.Position = UDim2.new(0.08, 0, 0.22, 0)
+PredictionButton.Size = UDim2.new(0.84, 0, 0, 28)
+PredictionButton.Font = Enum.Font.GothamBold
+PredictionButton.Text = "🔴 ยิงล่วงหน้า: OFF"
+PredictionButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PredictionButton.TextSize = 13
+PredictionButton.AutoButtonColor = false
+
+local PredictionUICorner = Instance.new("UICorner")
+PredictionUICorner.CornerRadius = UDim.new(0, 10)
+PredictionUICorner.Parent = PredictionButton
+
+-- ⚙️ Settings Button
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = MainFrame
+SettingsButton.BackgroundColor3 = Color3.fromRGB(80, 80, 100)
+SettingsButton.BorderSizePixel = 0
+SettingsButton.Position = UDim2.new(0.08, 0, 0.31, 0)
+SettingsButton.Size = UDim2.new(0.84, 0, 0, 28)
+SettingsButton.Font = Enum.Font.GothamBold
+SettingsButton.Text = "⚙️ ตั้งค่า"
+SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsButton.TextSize = 13
+SettingsButton.AutoButtonColor = false
+
+local SettingsUICorner = Instance.new("UICorner")
+SettingsUICorner.CornerRadius = UDim.new(0, 10)
+SettingsUICorner.Parent = SettingsButton
+
+-- 🎯 Target Player Frame
+TargetFrame.Name = "TargetFrame"
+TargetFrame.Parent = MainFrame
+TargetFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 50)
+TargetFrame.BorderSizePixel = 0
+TargetFrame.Position = UDim2.new(0.08, 0, 0.42, 0)
+TargetFrame.Size = UDim2.new(0.84, 0, 0, 165)
+
+local TargetUICorner = Instance.new("UICorner")
+TargetUICorner.CornerRadius = UDim.new(0, 10)
+TargetUICorner.Parent = TargetFrame
+
+-- 🎯 Target Label
+TargetLabel.Name = "TargetLabel"
+TargetLabel.Parent = TargetFrame
+TargetLabel.BackgroundTransparency = 1
+TargetLabel.Position = UDim2.new(0, 10, 0, 5)
+TargetLabel.Size = UDim2.new(1, -20, 0, 20)
+TargetLabel.Font = Enum.Font.GothamBold
+TargetLabel.Text = "🎯 Target Player Name:"
+TargetLabel.TextColor3 = Color3.fromRGB(100, 200, 255)
+TargetLabel.TextSize = 12
+TargetLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+-- 📝 Target Input TextBox
+TargetInput.Name = "TargetInput"
+TargetInput.Parent = TargetFrame
+TargetInput.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+TargetInput.BorderSizePixel = 0
+TargetInput.Position = UDim2.new(0.08, 0, 0.18, 0)
+TargetInput.Size = UDim2.new(0.84, 0, 0, 28)
+TargetInput.Font = Enum.Font.Gotham
+TargetInput.PlaceholderText = "Type player name..."
+TargetInput.Text = ""
+TargetInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetInput.TextSize = 12
+TargetInput.ClearTextOnFocus = false
+
+local TargetInputUICorner = Instance.new("UICorner")
+TargetInputUICorner.CornerRadius = UDim.new(0, 8)
+TargetInputUICorner.Parent = TargetInput
+
+-- 🔘 Target Mode Button
+TargetButton.Name = "TargetButton"
+TargetButton.Parent = TargetFrame
+TargetButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+TargetButton.BorderSizePixel = 0
+TargetButton.Position = UDim2.new(0.08, 0, 0.42, 0)
+TargetButton.Size = UDim2.new(0.84, 0, 0, 26)
+TargetButton.Font = Enum.Font.GothamBold
+TargetButton.Text = "🔴 TARGET MODE: OFF"
+TargetButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TargetButton.TextSize = 11
+TargetButton.AutoButtonColor = false
+
+local TargetBtnUICorner = Instance.new("UICorner")
+TargetBtnUICorner.CornerRadius = UDim.new(0, 8)
+TargetBtnUICorner.Parent = TargetButton
+
+-- 🎁 Get Item Back Button
+GetItemButton.Name = "GetItemButton"
+GetItemButton.Parent = TargetFrame
+GetItemButton.BackgroundColor3 = Color3.fromRGB(100, 100, 200)
+GetItemButton.BorderSizePixel = 0
+GetItemButton.Position = UDim2.new(0.08, 0, 0.62, 0)
+GetItemButton.Size = UDim2.new(0.84, 0, 0, 26)
+GetItemButton.Font = Enum.Font.GothamBold
+GetItemButton.Text = "🎁 GET ITEM BACK"
+GetItemButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetItemButton.TextSize = 11
+GetItemButton.AutoButtonColor = false
+
+local GetItemUICorner = Instance.new("UICorner")
+GetItemUICorner.CornerRadius = UDim.new(0, 8)
+GetItemUICorner.Parent = GetItemButton
+
+-- 🔫 Dupe Gun Button
+DupeGunButton.Name = "DupeGunButton"
+DupeGunButton.Parent = TargetFrame
+DupeGunButton.BackgroundColor3 = Color3.fromRGB(200, 100, 50)
+DupeGunButton.BorderSizePixel = 0
+DupeGunButton.Position = UDim2.new(0.08, 0, 0.82, 0)
+DupeGunButton.Size = UDim2.new(0.84, 0, 0, 26)
+DupeGunButton.Font = Enum.Font.GothamBold
+DupeGunButton.Text = "🔫 DUPE GUN"
+DupeGunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DupeGunButton.TextSize = 11
+DupeGunButton.AutoButtonColor = false
+
+local DupeGunUICorner = Instance.new("UICorner")
+DupeGunUICorner.CornerRadius = UDim.new(0, 8)
+DupeGunUICorner.Parent = DupeGunButton
+
+-- ⚙️ Settings Frame
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = ScreenGui
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 40)
+SettingsFrame.BorderSizePixel = 0
+SettingsFrame.Position = UDim2.new(0.65, 0, 0.25, 0)
+SettingsFrame.Size = UDim2.new(0, 280, 0, 220)
+SettingsFrame.Visible = false
+SettingsFrame.Active = true
+
+local SettingsFrameUICorner = Instance.new("UICorner")
+SettingsFrameUICorner.CornerRadius = UDim.new(0, 12)
+SettingsFrameUICorner.Parent = SettingsFrame
+
+-- ⚙️ Settings Top Bar
+SettingsTopBar.Name = "SettingsTopBar"
+SettingsTopBar.Parent = SettingsFrame
+SettingsTopBar.BackgroundColor3 = Color3.fromRGB(45, 45, 60)
+SettingsTopBar.BorderSizePixel = 0
+SettingsTopBar.Size = UDim2.new(1, 0, 0, 35)
+
+local SettingsTopBarUICorner = Instance.new("UICorner")
+SettingsTopBarUICorner.CornerRadius = UDim.new(0, 12)
+SettingsTopBarUICorner.Parent = SettingsTopBar
+
+-- ⚙️ Settings Title
+SettingsTitle.Name = "SettingsTitle"
+SettingsTitle.Parent = SettingsTopBar
+SettingsTitle.BackgroundTransparency = 1
+SettingsTitle.Position = UDim2.new(0, 10, 0, 0)
+SettingsTitle.Size = UDim2.new(0.7, 0, 1, 0)
+SettingsTitle.Font = Enum.Font.GothamBold
+SettingsTitle.Text = "⚙️ การตั้งค่า"
+SettingsTitle.TextColor3 = Color3.fromRGB(255, 200, 100)
+SettingsTitle.TextSize = 16
+SettingsTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+-- ❌ Settings Close Button
+SettingsCloseButton.Name = "SettingsCloseButton"
+SettingsCloseButton.Parent = SettingsTopBar
+SettingsCloseButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+SettingsCloseButton.BorderSizePixel = 0
+SettingsCloseButton.Position = UDim2.new(0.82, 0, 0.15, 0)
+SettingsCloseButton.Size = UDim2.new(0, 45, 0, 24)
+SettingsCloseButton.Font = Enum.Font.GothamBold
+SettingsCloseButton.Text = "❌"
+SettingsCloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsCloseButton.TextSize = 14
+
+local SettingsCloseUICorner = Instance.new("UICorner")
+SettingsCloseUICorner.CornerRadius = UDim.new(0, 6)
+SettingsCloseUICorner.Parent = SettingsCloseButton
+
+-- 🔫 Shoot Mode Label
+ShootModeLabel.Name = "ShootModeLabel"
+ShootModeLabel.Parent = SettingsFrame
+ShootModeLabel.BackgroundTransparency = 1
+ShootModeLabel.Position = UDim2.new(0, 15, 0, 45)
+ShootModeLabel.Size = UDim2.new(1, -30, 0, 20)
+ShootModeLabel.Font = Enum.Font.GothamBold
+ShootModeLabel.Text = "🔫 ปรับโหมดยิง:"
+ShootModeLabel.TextColor3 = Color3.fromRGB(255, 200, 100)
+ShootModeLabel.TextSize = 13
+ShootModeLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+-- 🔫 Shoot Mode Button
+ShootModeButton.Name = "ShootModeButton"
+ShootModeButton.Parent = SettingsFrame
+ShootModeButton.BackgroundColor3 = Color3.fromRGB(100, 150, 200)
+ShootModeButton.BorderSizePixel = 0
+ShootModeButton.Position = UDim2.new(0.08, 0, 0.35, 0)
+ShootModeButton.Size = UDim2.new(0.84, 0, 0, 32)
+ShootModeButton.Font = Enum.Font.GothamBold
+ShootModeButton.Text = "🔵 ยิงเลื่อยๆ"
+ShootModeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShootModeButton.TextSize = 13
+ShootModeButton.AutoButtonColor = false
+
+local ShootModeUICorner = Instance.new("UICorner")
+ShootModeUICorner.CornerRadius = UDim.new(0, 10)
+ShootModeUICorner.Parent = ShootModeButton
+
+-- ⚡ Speed Label
+SpeedLabel.Name = "SpeedLabel"
+SpeedLabel.Parent = SettingsFrame
+SpeedLabel.BackgroundTransparency = 1
+SpeedLabel.Position = UDim2.new(0, 15, 0, 110)
+SpeedLabel.Size = UDim2.new(1, -30, 0, 20)
+SpeedLabel.Font = Enum.Font.GothamBold
+SpeedLabel.Text = "⚡ ความเร็วยิง (วินาที):"
+SpeedLabel.TextColor3 = Color3.fromRGB(255, 200, 100)
+SpeedLabel.TextSize = 13
+SpeedLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+-- ⚡ Speed Input
+SpeedInput.Name = "SpeedInput"
+SpeedInput.Parent = SettingsFrame
+SpeedInput.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+SpeedInput.BorderSizePixel = 0
+SpeedInput.Position = UDim2.new(0.08, 0, 0.65, 0)
+SpeedInput.Size = UDim2.new(0.84, 0, 0, 32)
+SpeedInput.Font = Enum.Font.GothamBold
+SpeedInput.PlaceholderText = "0.001 - 1.0"
+SpeedInput.Text = tostring(fireRate)
+SpeedInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedInput.TextSize = 13
+SpeedInput.ClearTextOnFocus = false
+
+local SpeedInputUICorner = Instance.new("UICorner")
+SpeedInputUICorner.CornerRadius = UDim.new(0, 8)
+SpeedInputUICorner.Parent = SpeedInput
+
+-- 🎨 Floating Toggle Button (Image Based)
+FloatingToggle.Name = "FloatingToggle"
+FloatingToggle.Parent = ScreenGui
+FloatingToggle.BackgroundColor3 = Color3.fromRGB(40, 40, 55)
+FloatingToggle.BorderSizePixel = 0
+FloatingToggle.Position = UDim2.new(0.9, 0, 0.1, 0)
+FloatingToggle.Size = UDim2.new(0, 60, 0, 60)
+FloatingToggle.Image = "rbxassetid://72387856636271"
+FloatingToggle.ScaleType = Enum.ScaleType.Fit
+FloatingToggle.Active = true
+FloatingToggle.Draggable = false
+
+local FloatingUICorner = Instance.new("UICorner")
+FloatingUICorner.CornerRadius = UDim.new(0, 15)
+FloatingUICorner.Parent = FloatingToggle
+
+local FloatingStroke = Instance.new("UIStroke")
+FloatingStroke.Color = Color3.fromRGB(255, 70, 70)
+FloatingStroke.Thickness = 2
+FloatingStroke.Parent = FloatingToggle
+
+-- 🖱️ Main GUI Dragging System
+TopBar.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = MainFrame.Position
+        
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+TopBar.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        local delta = input.Position - dragStart
+        MainFrame.Position = UDim2.new(
+            startPos.X.Scale,
+            startPos.X.Offset + delta.X,
+            startPos.Y.Scale,
+            startPos.Y.Offset + delta.Y
+        )
+    end
+end)
+
+-- 🖱️ Settings GUI Dragging System
+SettingsTopBar.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        settingsDragging = true
+        settingsDragStart = input.Position
+        settingsStartPos = SettingsFrame.Position
+        
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                settingsDragging = false
+            end
+        end)
+    end
+end)
+
+SettingsTopBar.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        settingsDragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if settingsDragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        local delta = input.Position - settingsDragStart
+        SettingsFrame.Position = UDim2.new(
+            settingsStartPos.X.Scale,
+            settingsStartPos.X.Offset + delta.X,
+            settingsStartPos.Y.Scale,
+            settingsStartPos.Y.Offset + delta.Y
+        )
+    end
+end)
+
+-- 🖱️ Floating Toggle Dragging System
+FloatingToggle.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        floatingDragging = true
+        floatingDragStart = input.Position
+        floatingStartPos = FloatingToggle.Position
+        
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                floatingDragging = false
+            end
+        end)
+    end
+end)
+
+FloatingToggle.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        floatingDragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if floatingDragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        local delta = input.Position - floatingDragStart
+        FloatingToggle.Position = UDim2.new(
+            floatingStartPos.X.Scale,
+            floatingStartPos.X.Offset + delta.X,
+            floatingStartPos.Y.Scale,
+            floatingStartPos.Y.Offset + delta.Y
+        )
+    end
+end)
+
+-- 📝 Speed Input Handler
+SpeedInput.FocusLost:Connect(function(enterPressed)
+    if burstModeEnabled then
+        SpeedInput.Text = "0.001"
+        warn("⚠️ โหมดยิงทีเดียวล็อคที่ 0.001")
+        return
+    end
+    
+    local inputValue = tonumber(SpeedInput.Text)
+    
+    if inputValue and inputValue >= 0.001 and inputValue <= 1 then
+        fireRate = inputValue
+        SpeedInput.Text = tostring(fireRate)
+        SpeedInput.TextColor3 = Color3.fromRGB(100, 255, 100)
+        
+        if fireRate <= 0.01 then
+            print("⚡ ULTRA SPEED MODE: " .. fireRate .. " seconds")
+        else
+            print("⚡ Fire rate updated to: " .. fireRate .. " seconds")
+        end
+        
+        wait(0.5)
+        SpeedInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+    else
+        SpeedInput.Text = tostring(fireRate)
+        SpeedInput.TextColor3 = Color3.fromRGB(255, 100, 100)
+        warn("⚠️ Invalid value! Use 0.001 - 1.0")
+        
+        wait(0.5)
+        SpeedInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+    end
+end)
+
+-- 🔘 Toggle GUI Visibility (Main Button)
+ToggleButton.MouseButton1Click:Connect(function()
+    guiVisible = not guiVisible
+    
+    if guiVisible then
+        KillAuraButton.Visible = true
+        PredictionButton.Visible = true
+        SettingsButton.Visible = true
+        TargetFrame.Visible = true
+        ToggleButton.Text = "HIDE"
+        
+        MainFrame:TweenSize(
+            UDim2.new(0, 300, 0, 350),
+            Enum.EasingDirection.Out,
+            Enum.EasingStyle.Quad,
+            0.2,
+            true
+        )
+    else
+        ToggleButton.Text = "SHOW"
+        
+        MainFrame:TweenSize(
+            UDim2.new(0, 300, 0, 35),
+            Enum.EasingDirection.Out,
+            Enum.EasingStyle.Quad,
+            0.2,
+            true
+        )
+        
+        wait(0.2)
+        KillAuraButton.Visible = false
+        PredictionButton.Visible = false
+        SettingsButton.Visible = false
+        TargetFrame.Visible = false
+    end
+end)
+
+-- 🎨 Floating Toggle Click (Show/Hide Main GUI)
+FloatingToggle.MouseButton1Click:Connect(function()
+    MainFrame.Visible = not MainFrame.Visible
+    
+    if MainFrame.Visible then
+        FloatingStroke.Color = Color3.fromRGB(255, 70, 70)
+        print("🎨 Main GUI Shown")
+    else
+        FloatingStroke.Color = Color3.fromRGB(100, 100, 100)
+        print("🎨 Main GUI Hidden")
+    end
+end)
+
+-- ⚙️ Settings Button Click
+SettingsButton.MouseButton1Click:Connect(function()
+    SettingsFrame.Visible = not SettingsFrame.Visible
+    
+    if SettingsFrame.Visible then
+        print("⚙️ Settings Opened")
+    else
+        print("⚙️ Settings Closed")
+    end
+end)
+
+-- ❌ Settings Close Button
+SettingsCloseButton.MouseButton1Click:Connect(function()
+    SettingsFrame.Visible = false
+    print("⚙️ Settings Closed")
+end)
+
+-- 🔫 Shoot Mode Toggle
+ShootModeButton.MouseButton1Click:Connect(function()
+    burstModeEnabled = not burstModeEnabled
+    
+    if burstModeEnabled then
+        -- 🎯 โหมดยิงทีเดียว
+        ShootModeButton.Text = "🔴 ยิงทีเดียว"
+        ShootModeButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        fireRate = 0.001
+        SpeedInput.Text = "0.001"
+        SpeedInput.TextEditable = false
+        SpeedInput.BackgroundColor3 = Color3.fromRGB(70, 70, 90)
+        print("🔴 Burst Mode: ON | Fire Rate locked at 0.001")
+    else
+        -- 🔵 โหมดยิงเลื่อยๆ
+        ShootModeButton.Text = "🔵 ยิงเลื่อยๆ"
+        ShootModeButton.BackgroundColor3 = Color3.fromRGB(100, 150, 200)
+        fireRate = 0.1
+        SpeedInput.Text = "0.1"
+        SpeedInput.TextEditable = true
+        SpeedInput.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+        print("🔵 Continuous Mode: ON | Fire Rate adjustable")
+    end
+end)
+
+-- 🔍 Find Player by Partial Name
+local function findPlayerByName(partialName)
+    if partialName == "" then return nil end
+    
+    local lowerPartial = partialName:lower()
+    
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer then
+            local lowerName = player.Name:lower()
+            local lowerDisplay = player.DisplayName:lower()
+            
+            if lowerName:find(lowerPartial, 1, true) or lowerDisplay:find(lowerPartial, 1, true) then
+                return player
+            end
+        end
+    end
+    
+    return nil
+end
+
+-- 🔫 Get All Guns from Backpack
+local function getAllGuns()
+    local guns = {}
+    for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+        if tool:IsA("Tool") and tool.Name == "Gun" then
+            table.insert(guns, tool)
+        end
+    end
+    return guns
+end
+
+-- 🔄 Switch Gun (Invisible Mode)
+local function switchGun()
+    local guns = getAllGuns()
+    
+    if #guns == 0 then
+        return false
+    end
+    
+    if LocalPlayer.Character then
+        local equippedGun = LocalPlayer.Character:FindFirstChild("Gun")
+        if equippedGun then
+            equippedGun.Parent = LocalPlayer.Backpack
+        end
+    end
+    
+    if currentGunIndex > #guns then
+        currentGunIndex = 1
+    end
+    
+    local selectedGun = guns[currentGunIndex]
+    
+    if selectedGun and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        LocalPlayer.Character.Humanoid:EquipTool(selectedGun)
+        currentGunIndex = currentGunIndex + 1
+        
+        -- 👻 Make Gun Invisible
+        task.spawn(function()
+            wait(0.05)
+            if LocalPlayer.Character:FindFirstChild("Gun") then
+                local gun = LocalPlayer.Character.Gun
+                for _, part in pairs(gun:GetDescendants()) do
+                    if part:IsA("BasePart") or part:IsA("MeshPart") then
+                        part.Transparency = 1
+                    elseif part:IsA("Decal") or part:IsA("Texture") then
+                        part.Transparency = 1
+                    end
+                end
+            end
+        end)
+        
+        return true
+    end
+    
+    return false
+end
+
+-- 🔫 Initial Gun Equip (Invisible Mode)
+local function equipGun()
+    local guns = getAllGuns()
+    
+    if #guns == 0 then
+        return false
+    end
+    
+    if LocalPlayer.Character then
+        local equippedGun = LocalPlayer.Character:FindFirstChild("Gun")
+        if equippedGun then
+            equippedGun.Parent = LocalPlayer.Backpack
+        end
+    end
+    
+    local firstGun = guns[1]
+    if firstGun and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+        LocalPlayer.Character.Humanoid:EquipTool(firstGun)
+        currentGunIndex = 2
+        
+        -- 👻 Make Gun Invisible (Instant Hide)
+        task.spawn(function()
+            wait(0.05)
+            if LocalPlayer.Character:FindFirstChild("Gun") then
+                local gun = LocalPlayer.Character.Gun
+                for _, part in pairs(gun:GetDescendants()) do
+                    if part:IsA("BasePart") or part:IsA("MeshPart") then
+                        part.Transparency = 1
+                    elseif part:IsA("Decal") or part:IsA("Texture") then
+                        part.Transparency = 1
+                    end
+                end
+            end
+        end)
+        
+        return true
+    end
+    
+    return false
+end
+
+-- 🎯 Calculate Predicted Position
+local function getPredictedPosition(targetChar)
+    if not targetChar then return nil end
+
+    local head = targetChar:FindFirstChild("Head")
+    if head then
+        return head.Position -- 🎯 ยิงหัว
+    end
+
+    local root = targetChar:FindFirstChild("HumanoidRootPart")
+    if root then
+        return root.Position
+    end
+
+    return nil
+end
+
+-- 🎯 Get Closest Player with Line of Sight
+local function getClosestPlayer()
+    local character = LocalPlayer.Character
+    if not character or not character:FindFirstChild("HumanoidRootPart") then
+        return nil
+    end
+    
+    local myPos = character.HumanoidRootPart.Position
+    local myHead = character:FindFirstChild("Head")
+    if not myHead then return nil end
+    
+    local closestPlayer = nil
+    local shortestDistance = math.huge
+    
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer then
+            local targetChar = player.Character
+            if targetChar and targetChar:FindFirstChild("HumanoidRootPart") then
+                local targetHum = targetChar:FindFirstChild("Humanoid")
+                
+                if targetHum and targetHum.Health > 0 then
+                    local targetPos = targetChar.HumanoidRootPart.Position
+                    local targetHead = targetChar:FindFirstChild("Head")
+                    
+                    if targetHead then
+                        local distance = (myPos - targetPos).Magnitude
+                        
+                        local rayOrigin = myHead.Position
+                        local rayDirection = (targetHead.Position - rayOrigin)
+                        
+                        local raycastParams = RaycastParams.new()
+                        raycastParams.FilterDescendantsInstances = {character, targetChar}
+                        raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+                        raycastParams.IgnoreWater = true
+                        
+                        local rayResult = workspace:Raycast(rayOrigin, rayDirection, raycastParams)
+                        
+                        if not rayResult or rayResult.Instance:IsDescendantOf(targetChar) then
+                            if distance < shortestDistance then
+                                shortestDistance = distance
+                                closestPlayer = player
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    return closestPlayer
+end
+
+-- 💥 Kill Aura Loop
+local killAuraConnection = nil
+local targetModeConnection = nil
+local antiSeatConnection = nil
+local lastShotTime = 0
+
+local function startKillAura()
+    if killAuraConnection then return end
+    
+    killAuraConnection = RunService.Heartbeat:Connect(function()
+        if not killAuraEnabled then return end
+        
+        local currentTime = tick()
+        
+        if burstModeEnabled then
+            -- 🔴 โหมดยิงทีเดียว - สลับปืนเร็วมาก
+            local target = getClosestPlayer()
+            if not target then return end
+            
+            local targetChar = target.Character
+            if not targetChar or not targetChar:FindFirstChild("HumanoidRootPart") then return end
+            
+            local targetHum = targetChar:FindFirstChild("Humanoid")
+            if not targetHum or targetHum.Health <= 0 then return end
+            
+            local gun = LocalPlayer.Character:FindFirstChild("Gun")
+            if not gun then
+                equipGun()
+                return
+            end
+            
+            local shootPos = getPredictedPosition(targetChar)
+            
+            if gun:FindFirstChild("shot") then
+                local args = { [1] = shootPos }
+                if shootPos then
+    local guns = getAllGuns()
+
+for _, g in pairs(guns) do
+    if g:FindFirstChild("shot") then
+        -- สลับไปใช้ปืนนี้
+        LocalPlayer.Character.Humanoid:EquipTool(g)
+        
+        -- ยิงทันที
+        g.shot:FireServer(shootPos)
+    end
+end
+
+-- 🛑 ยิงรอบเดียวพอ
+if gun:FindFirstChild("shot") and shootPos then
+    local guns = getAllGuns()
+
+    for _, g in pairs(guns) do
+        if g:FindFirstChild("shot") then
+            LocalPlayer.Character.Humanoid:EquipTool(g)
+            g.shot:FireServer(shootPos)
+        end
+    end
+
+    lastShotTime = currentTime -- ⬅️ สำคัญมาก (คุมจังหวะยิง)
+end
+end
+                
+                -- 🔄 สลับปืนทันที (0.001s)
+                if #getAllGuns() > 1 then
+                    wait(0.5)
+                    switchGun()
+                end
+            end
+        else
+            -- 🔵 โหมดยิงเลื่อยๆ - ปกติ
+            if currentTime - lastShotTime < fireRate then
+                return
+            end
+            
+            local target = getClosestPlayer()
+            if not target then return end
+            
+            local targetChar = target.Character
+            if not targetChar or not targetChar:FindFirstChild("HumanoidRootPart") then return end
+            
+            local targetHum = targetChar:FindFirstChild("Humanoid")
+            if not targetHum or targetHum.Health <= 0 then return end
+            
+            local gun = LocalPlayer.Character:FindFirstChild("Gun")
+            if not gun then
+                equipGun()
+                return
+            end
+            
+            local shootPos = getPredictedPosition(targetChar)
+            
+            if gun:FindFirstChild("shot") then
+                local args = { [1] = shootPos }
+                gun.shot:FireServer(unpack(args))
+                lastShotTime = currentTime
+                
+                if #getAllGuns() > 1 then
+                    task.spawn(function()
+                        wait(0.01)
+                        switchGun()
+                    end)
+                end
+            end
+        end
+    end)
+end
+
+local function stopKillAura()
+    if killAuraConnection then
+        killAuraConnection:Disconnect()
+        killAuraConnection = nil
+    end
+    lastShotTime = 0
+end
+
+-- 🚫 Anti-Seat System
+local function startAntiSeat()
+    if antiSeatConnection then return end
+    
+    antiSeatConnection = RunService.Heartbeat:Connect(function()
+        if not targetModeEnabled then return end
+        
+        local character = LocalPlayer.Character
+        if not character then return end
+        
+        local humanoid = character:FindFirstChild("Humanoid")
+        if humanoid and humanoid.Sit then
+            humanoid.Sit = false
+        end
+    end)
+end
+
+local function stopAntiSeat()
+    if antiSeatConnection then
+        antiSeatConnection:Disconnect()
+        antiSeatConnection = nil
+    end
+end
+
+-- 🎯 Target Mode Loop
+local function startTargetMode()
+    if targetModeConnection then return end
+    
+    targetModeConnection = RunService.Heartbeat:Connect(function()
+        if not targetModeEnabled then return end
+        
+        local targetPlayer = findPlayerByName(targetPlayerName)
+        if not targetPlayer then return end
+        
+        local targetChar = targetPlayer.Character
+        if not targetChar or not targetChar:FindFirstChild("HumanoidRootPart") then return end
+        
+        local targetHum = targetChar:FindFirstChild("Humanoid")
+        if not targetHum or targetHum.Health <= 0 then return end
+        
+        local character = LocalPlayer.Character
+        if not character or not character:FindFirstChild("HumanoidRootPart") then return end
+        
+        local targetPos = targetChar.HumanoidRootPart.Position
+        
+        teleportAngle = teleportAngle + math.rad(fireRate * 3600)
+        if teleportAngle > math.pi * 2 then
+            teleportAngle = 0
+        end
+        
+        teleportRadius = teleportRadius + (radiusDirection * 0.5)
+        if teleportRadius >= 15 then
+            radiusDirection = -1
+        elseif teleportRadius <= 5 then
+            radiusDirection = 1
+        end
+        
+        local offsetX = math.cos(teleportAngle) * teleportRadius
+        local offsetZ = math.sin(teleportAngle) * teleportRadius
+        local newPos = Vector3.new(targetPos.X + offsetX, targetPos.Y, targetPos.Z + offsetZ)
+        
+        character.HumanoidRootPart.CFrame = CFrame.new(newPos, targetPos)
+        
+        local currentTime = tick()
+        
+        if burstModeEnabled then
+            -- 🔴 โหมดยิงทีเดียว
+            local gun = character:FindFirstChild("Gun")
+            if not gun then
+                equipGun()
+                return
+            end
+            
+            local shootPos = getPredictedPosition(targetChar)
+            
+            if gun:FindFirstChild("shot") then
+                local args = { [1] = shootPos }
+                gun.shot:FireServer(unpack(args))
+                
+                if #getAllGuns() > 1 then
+                    wait(0.001)
+                    switchGun()
+                end
+            end
+        else
+            -- 🔵 โหมดยิงเลื่อยๆ
+            if currentTime - lastShotTime < fireRate then
+                return
+            end
+            
+            local gun = character:FindFirstChild("Gun")
+            if not gun then
+                equipGun()
+                return
+            end
+            
+            local shootPos = getPredictedPosition(targetChar)
+            
+            if gun:FindFirstChild("shot") then
+                local args = { [1] = shootPos }
+                gun.shot:FireServer(unpack(args))
+                lastShotTime = currentTime
+                
+                if #getAllGuns() > 1 then
+                    task.spawn(function()
+                        wait(0.01)
+                        switchGun()
+                    end)
+                end
+            end
+        end
+    end)
+end
+
+local function stopTargetMode()
+    if targetModeConnection then
+        targetModeConnection:Disconnect()
+        targetModeConnection = nil
+    end
+    stopAntiSeat()
+    teleportAngle = 0
+    teleportRadius = 10
+    radiusDirection = 1
+    lastShotTime = 0
+end
+
+-- 🎯 Prediction Toggle
+PredictionButton.MouseButton1Click:Connect(function()
+    predictionEnabled = not predictionEnabled
+    
+    if predictionEnabled then
+        PredictionButton.Text = "🟢 ยิงล่วงหน้า: ON"
+        PredictionButton.BackgroundColor3 = Color3.fromRGB(100, 200, 100)
+        print("🎯 Prediction ENABLED")
+    else
+        PredictionButton.Text = "🔴 ยิงล่วงหน้า: OFF"
+        PredictionButton.BackgroundColor3 = Color3.fromRGB(150, 100, 200)
+        print("🎯 Prediction DISABLED")
+    end
+end)
+
+-- 🎁 Get Item Back Button
+GetItemButton.MouseButton1Click:Connect(function()
+    local success, error = pcall(function()
+        game:GetService("ReplicatedStorage"):WaitForChild("GetItemBack"):FireServer()
+    end)
+    
+    if success then
+        GetItemButton.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        GetItemButton.Text = "✅ SUCCESS!"
+        print("🎁 Get Item Back fired!")
+        
+        wait(1)
+        GetItemButton.BackgroundColor3 = Color3.fromRGB(100, 100, 200)
+        GetItemButton.Text = "🎁 GET ITEM BACK"
+    else
+        GetItemButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        GetItemButton.Text = "❌ FAILED!"
+        warn("⚠️ Get Item Back error: " .. tostring(error))
+        
+        wait(1)
+        GetItemButton.BackgroundColor3 = Color3.fromRGB(100, 100, 200)
+        GetItemButton.Text = "🎁 GET ITEM BACK"
+    end
+end)
+
+-- 🔫 Dupe Gun Button
+DupeGunButton.MouseButton1Click:Connect(function()
+    DupeGunButton.BackgroundColor3 = Color3.fromRGB(255, 200, 50)
+    DupeGunButton.Text = "⏳ LOADING..."
+    
+    local success, error = pcall(function()
+        loadstring(game:HttpGet("https://pastefy.app/nodPyrV0/raw"))()
+    end)
+    
+    if success then
+        DupeGunButton.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        DupeGunButton.Text = "✅ LOADED!"
+        print("🔫 Dupe Gun script executed!")
+        
+        wait(2)
+        DupeGunButton.BackgroundColor3 = Color3.fromRGB(200, 100, 50)
+        DupeGunButton.Text = "🔫 DUPE GUN"
+    else
+        DupeGunButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        DupeGunButton.Text = "❌ FAILED!"
+        warn("⚠️ Dupe Gun error: " .. tostring(error))
+        
+        wait(2)
+        DupeGunButton.BackgroundColor3 = Color3.fromRGB(200, 100, 50)
+        DupeGunButton.Text = "🔫 DUPE GUN"
+    end
+end)
+
+-- 🎯 Target Mode Toggle
+TargetButton.MouseButton1Click:Connect(function()
+    targetModeEnabled = not targetModeEnabled
+    
+    if targetModeEnabled then
+        targetPlayerName = TargetInput.Text
+        
+        if targetPlayerName == "" then
+            warn("⚠️ Please enter a player name!")
+            targetModeEnabled = false
+            return
+        end
+        
+        local targetPlayer = findPlayerByName(targetPlayerName)
+        if not targetPlayer then
+            warn("⚠️ Player not found: " .. targetPlayerName)
+            targetModeEnabled = false
+            TargetInput.TextColor3 = Color3.fromRGB(255, 100, 100)
+            wait(0.5)
+            TargetInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+            return
+        end
+        
+        TargetButton.Text = "🟢 TARGET MODE: ON"
+        TargetButton.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        TargetInput.TextColor3 = Color3.fromRGB(100, 255, 100)
+        
+        if killAuraEnabled then
+            killAuraEnabled = false
+            stopKillAura()
+            KillAuraButton.Text = "🔴 KILL AURA: OFF"
+            KillAuraButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        end
+        
+        if not equipGun() then
+            warn("⚠️ Gun not found in Backpack!")
+            targetModeEnabled = false
+            TargetButton.Text = "🔴 TARGET MODE: OFF"
+            TargetButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+            TargetInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+            return
+        end
+        
+        startTargetMode()
+        startAntiSeat()
+        print("🎯 Target Mode ACTIVATED on: " .. targetPlayer.Name)
+        print("⚡ Fire Rate: " .. fireRate .. " | 🌀 Ultra Speed!")
+        print("🚫 Anti-Seat: Active")
+    else
+        TargetButton.Text = "🔴 TARGET MODE: OFF"
+        TargetButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        TargetInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+        stopTargetMode()
+        print("🛑 Target Mode DEACTIVATED!")
+    end
+end)
+
+-- 🎯 Kill Aura Toggle
+KillAuraButton.MouseButton1Click:Connect(function()
+    killAuraEnabled = not killAuraEnabled
+    
+    if killAuraEnabled then
+        KillAuraButton.Text = "🟢 KILL AURA: ON"
+        KillAuraButton.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        
+        if targetModeEnabled then
+            targetModeEnabled = false
+            stopTargetMode()
+            TargetButton.Text = "🔴 TARGET MODE: OFF"
+            TargetButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+            TargetInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+        end
+        
+        if not equipGun() then
+            warn("⚠️ Gun not found in Backpack!")
+            killAuraEnabled = false
+            KillAuraButton.Text = "🔴 KILL AURA: OFF"
+            KillAuraButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+            return
+        end
+        
+        startKillAura()
+        print("💀 Kill Aura ACTIVATED!")
+        print("⚡ Fire Rate: " .. fireRate)
+        
+        if burstModeEnabled then
+            print("🔴 Burst Mode: Ultra Fast Gun Switch (0.001s)")
+        else
+            print("🔵 Continuous Mode: Normal Shooting")
+        end
+        
+        local gunCount = #getAllGuns()
+        if gunCount > 1 then
+            print("🔄 Multiple Guns: " .. gunCount)
+        end
+    else
+        KillAuraButton.Text = "🔴 KILL AURA: OFF"
+        KillAuraButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        stopKillAura()
+        print("🛑 Kill Aura DEACTIVATED!")
+    end
+end)
+
+-- 🎉 Notification
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "💀 Kill Aura V4.4 Loaded",
+    Text = "Settings + Shoot Modes! ⚙️🔫",
+    Duration = 3
+})
+
+print("🔥 Kill Aura V4.4 Loaded!")
+print("✅ Settings GUI | 🔫 Shoot Modes | ⚡ Speed Control")
+
+local player = game.Players.LocalPlayer
+local runService = game:GetService("RunService")
+
+-- ⚙️ Settings
+local auto = false
+local skyAuto = false
+local lastShot = 0
+local fireRate = 0.01 
+local skyHeight = 100 
+local targetNameSearch = "" -- ชื่อที่พิมพ์ไว้ค้นหา
+
+-- 🔍 ฟังก์ชันหาปืนและปิดเสียง
+local function getGunsAndSilence()
+    local guns = {}
+    local locations = {player.Backpack, player.Character}
+    for _, loc in pairs(locations) do
+        if loc and loc:IsA("Model") or loc:IsA("Backpack") then
+            for _, item in pairs(loc:GetChildren()) do
+                if item:IsA("Tool") then 
+                    table.insert(guns, item)
+                    for _, obj in pairs(item:GetDescendants()) do
+                        if obj:IsA("Sound") then
+                            obj.Volume = 0
+                            obj:Stop()
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return guns
+end
+
+-- 🔍 ฟังก์ชันหาเป้าหมาย (เลือกจากชื่อ หรือเลือกจากระยะ)
+local function getCustomTarget()
+    local closest, dist = nil, math.huge
+    
+    for _, p in pairs(game.Players:GetPlayers()) do
+        if p ~= player and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local hum = p.Character:FindFirstChild("Humanoid")
+            if hum and hum.Health > 0 then
+                -- เช็คว่ามีการพิมพ์ชื่อเพื่อเจาะจงคนยิงไหม
+                if targetNameSearch ~= "" then
+                    if string.find(string.lower(p.Name), string.lower(targetNameSearch)) or string.find(string.lower(p.DisplayName), string.lower(targetNameSearch)) then
+                        return p -- ถ้าเจอชื่อที่ตรงกัน ให้ส่งกลับคนนี้ทันที (ลำดับความสำคัญสูงกว่า)
+                    end
+                else
+                    -- ถ้าไม่ได้พิมพ์ชื่อ ให้หาคนที่ใกล้ที่สุดตามปกติ
+                    local d = (p.Character.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude
+                    if d < dist then
+                        dist = d
+                        closest = p
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+-- 🔫 ฟังก์ชันสั่งยิง
+local function executeShoot(isSkyMode)
+    local now = tick()
+    if now - lastShot < fireRate then return end
+
+    local currentTarget = getCustomTarget()
+    if not currentTarget or not currentTarget.Character then return end
+
+    local targetPart = currentTarget.Character:FindFirstChild("Head")
+    if not targetPart then return end
+
+    local guns = getGunsAndSilence()
+    local targetPos = targetPart.Position
+    
+    local originPos = targetPos
+    if isSkyMode and player.Character and player.Character:FindFirstChild("Head") then
+        originPos = player.Character.Head.Position + Vector3.new(0, skyHeight, 0)
+    end
+
+    for _, g in pairs(guns) do
+        local remote = g:FindFirstChild("shot") or g:FindFirstChild("RemoteEvent") or g:FindFirstChild("MainEvent")
+        if remote then
+            task.spawn(function()
+                remote:FireServer(targetPos, originPos)
+            end)
+        end
+    end
+    lastShot = now
+end
+
+-- 🧱 สร้าง UI
+local gui = Instance.new("ScreenGui", player.PlayerGui)
+gui.Name = "CustomTargetSystem"
+gui.ResetOnSpawn = false
+
+-- เฟรมหลัก (เพื่อให้ลากไปมาพร้อมกันได้)
+local mainFrame = Instance.new("Frame", gui)
+mainFrame.Size = UDim2.new(0, 160, 0, 180)
+mainFrame.Position = UDim2.new(0.8, 0, 0.6, 0)
+mainFrame.BackgroundTransparency = 1
+mainFrame.Draggable = true
+mainFrame.Active = true
+
+-- ช่องพิมพ์ชื่อ
+local nameBox = Instance.new("TextBox", mainFrame)
+nameBox.Size = UDim2.new(1, 0, 0, 40)
+nameBox.Position = UDim2.new(0, 0, 0, 0)
+nameBox.PlaceholderText = "พิมพ์ชื่อที่นี่..."
+nameBox.Text = ""
+nameBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+nameBox.TextColor3 = Color3.new(1, 1, 1)
+nameBox.Font = Enum.Font.Gotham
+nameBox.TextSize = 14
+Instance.new("UICorner", nameBox)
+
+nameBox:GetPropertyChangedSignal("Text"):Connect(function()
+    targetNameSearch = nameBox.Text
+end)
+
+-- ปุ่ม SKY
+local skyBtn = Instance.new("TextButton", mainFrame)
+skyBtn.Size = UDim2.new(1, 0, 0, 50)
+skyBtn.Position = UDim2.new(0, 0, 0, 50)
+skyBtn.Text = "SILENT SKY"
+skyBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 60)
+skyBtn.TextColor3 = Color3.new(1, 1, 1)
+skyBtn.TextScaled = true
+Instance.new("UICorner", skyBtn)
+
+-- ปุ่ม AUTO ปกติ
+local autoBtn = Instance.new("TextButton", mainFrame)
+autoBtn.Size = UDim2.new(1, 0, 0, 50)
+autoBtn.Position = UDim2.new(0, 0, 0, 110)
+autoBtn.Text = "NORMAL AUTO"
+autoBtn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+autoBtn.TextColor3 = Color3.new(1, 1, 1)
+autoBtn.TextScaled = true
+Instance.new("UICorner", autoBtn)
+
+-- ระบบคลิก
+autoBtn.MouseButton1Click:Connect(function()
+    auto = not auto
+    skyAuto = false
+    autoBtn.Text = auto and "AUTO: ON" or "NORMAL AUTO"
+    autoBtn.BackgroundColor3 = auto and Color3.fromRGB(0, 150, 0) or Color3.fromRGB(50, 50, 50)
+    skyBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 60)
+end)
+
+skyBtn.MouseButton1Click:Connect(function()
+    skyAuto = not skyAuto
+    auto = false
+    skyBtn.Text = skyAuto and "SKY: ACTIVE" or "SILENT SKY"
+    skyBtn.BackgroundColor3 = skyAuto and Color3.fromRGB(0, 100, 250) or Color3.fromRGB(30, 30, 60)
+    autoBtn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+end)
+
+runService.Heartbeat:Connect(function()
+    if auto then executeShoot(false) elseif skyAuto then executeShoot(true) end
+end)
