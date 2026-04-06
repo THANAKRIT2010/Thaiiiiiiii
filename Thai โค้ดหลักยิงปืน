@@ -1,3 +1,4 @@
+
 -- 💀 Kill Aura (Beta) - Roblox Exploit Script V4.4
 -- 🎯 Created for Exploiters by Exploiters
 -- ⚙️ Settings + Shooting Modes
@@ -736,18 +737,19 @@ end
 
 -- 🎯 Calculate Predicted Position
 local function getPredictedPosition(targetChar)
-    if not predictionEnabled then
-        return targetChar.HumanoidRootPart.Position
+    if not targetChar then return nil end
+
+    local head = targetChar:FindFirstChild("Head")
+    if head then
+        return head.Position -- 🎯 ยิงหัว
     end
-    
-    local targetRoot = targetChar.HumanoidRootPart
-    local currentPos = targetRoot.Position
-    local velocity = targetRoot.AssemblyLinearVelocity
-    
-    local predictionTime = fireRate * 2
-    local predictedPos = currentPos + (velocity * predictionTime)
-    
-    return predictedPos
+
+    local root = targetChar:FindFirstChild("HumanoidRootPart")
+    if root then
+        return root.Position
+    end
+
+    return nil
 end
 
 -- 🎯 Get Closest Player with Line of Sight
@@ -778,7 +780,7 @@ local function getClosestPlayer()
                         local distance = (myPos - targetPos).Magnitude
                         
                         local rayOrigin = myHead.Position
-                        local rayDirection = (targetHead.Position - rayOrigin).Unit * distance
+                        local rayDirection = (targetHead.Position - rayOrigin)
                         
                         local raycastParams = RaycastParams.new()
                         raycastParams.FilterDescendantsInstances = {character, targetChar}
@@ -837,11 +839,37 @@ local function startKillAura()
             
             if gun:FindFirstChild("shot") then
                 local args = { [1] = shootPos }
-                gun.shot:FireServer(unpack(args))
+                if shootPos then
+    local guns = getAllGuns()
+
+for _, g in pairs(guns) do
+    if g:FindFirstChild("shot") then
+        -- สลับไปใช้ปืนนี้
+        LocalPlayer.Character.Humanoid:EquipTool(g)
+        
+        -- ยิงทันที
+        g.shot:FireServer(shootPos)
+    end
+end
+
+-- 🛑 ยิงรอบเดียวพอ
+if gun:FindFirstChild("shot") and shootPos then
+    local guns = getAllGuns()
+
+    for _, g in pairs(guns) do
+        if g:FindFirstChild("shot") then
+            LocalPlayer.Character.Humanoid:EquipTool(g)
+            g.shot:FireServer(shootPos)
+        end
+    end
+
+    lastShotTime = currentTime -- ⬅️ สำคัญมาก (คุมจังหวะยิง)
+end
+end
                 
                 -- 🔄 สลับปืนทันที (0.001s)
                 if #getAllGuns() > 1 then
-                    wait(0.001)
+                    wait(0.5)
                     switchGun()
                 end
             end
@@ -1198,3 +1226,221 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 print("🔥 Kill Aura V4.4 Loaded!")
 print("✅ Settings GUI | 🔫 Shoot Modes | ⚡ Speed Control")
+
+local player = game.Players.LocalPlayer
+local runService = game:GetService("RunService")
+local userInputService = game:GetService("UserInputService")
+
+-- ⚙️ Settings
+local auto = false
+local skyAuto = false
+local lastShot = 0
+local fireRate = 0.01 
+local skyHeight = 100 
+local targetNameSearch = "" 
+
+-- 🔍 ฟังก์ชันหาปืนและปิดเสียง
+local function getGunsAndSilence()
+    local guns = {}
+    local locations = {player.Backpack, player.Character}
+    for _, loc in pairs(locations) do
+        if loc and (loc:IsA("Model") or loc:IsA("Backpack")) then
+            for _, item in pairs(loc:GetChildren()) do
+                if item:IsA("Tool") then 
+                    table.insert(guns, item)
+                    for _, obj in pairs(item:GetDescendants()) do
+                        if obj:IsA("Sound") then
+                            obj.Volume = 0
+                            obj:Stop()
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return guns
+end
+
+-- 🔍 ฟังก์ชันหาเป้าหมาย
+local function getCustomTarget()
+    local closest, dist = nil, math.huge
+    for _, p in pairs(game.Players:GetPlayers()) do
+        if p ~= player and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local hum = p.Character:FindFirstChild("Humanoid")
+            if hum and hum.Health > 0 then
+                if targetNameSearch ~= "" then
+                    if string.find(string.lower(p.Name), string.lower(targetNameSearch)) or string.find(string.lower(p.DisplayName), string.lower(targetNameSearch)) then
+                        return p 
+                    end
+                else
+                    local d = (p.Character.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude
+                    if d < dist then
+                        dist = d
+                        closest = p
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+-- 🔫 ฟังก์ชันสั่งยิง
+local function executeShoot(isSkyMode)
+    local now = tick()
+    if now - lastShot < fireRate then return end
+
+    local currentTarget = getCustomTarget()
+    if not currentTarget or not currentTarget.Character then return end
+
+    local targetPart = currentTarget.Character:FindFirstChild("Head")
+    if not targetPart then return end
+
+    local guns = getGunsAndSilence()
+    local targetPos = targetPart.Position
+    local originPos = targetPos
+
+    if isSkyMode and player.Character and player.Character:FindFirstChild("Head") then
+        originPos = player.Character.Head.Position + Vector3.new(0, skyHeight, 0)
+    end
+
+    for _, g in pairs(guns) do
+        local remote = g:FindFirstChild("shot") or g:FindFirstChild("RemoteEvent") or g:FindFirstChild("MainEvent")
+        if remote then
+            task.spawn(function()
+                remote:FireServer(targetPos, originPos)
+            end)
+        end
+    end
+    lastShot = now
+end
+
+-- 🧱 สร้าง UI
+local gui = Instance.new("ScreenGui", player.PlayerGui)
+gui.Name = "RGB_Target_System"
+gui.ResetOnSpawn = false
+
+local mainFrame = Instance.new("Frame", gui)
+mainFrame.Size = UDim2.new(0, 180, 0, 220)
+mainFrame.Position = UDim2.new(0.5, -90, 0.4, 0)
+mainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+mainFrame.BorderSizePixel = 0
+mainFrame.Active = true
+
+local uiCorner = Instance.new("UICorner", mainFrame)
+local uiStroke = Instance.new("UIStroke", mainFrame) -- สำหรับขอบ RGB
+uiStroke.Thickness = 2
+uiStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+local title = Instance.new("TextLabel", mainFrame)
+title.Size = UDim2.new(1, 0, 0, 30)
+title.Text = "TK1669 RGB"
+title.BackgroundTransparency = 1
+title.TextColor3 = Color3.new(1, 1, 1)
+title.Font = Enum.Font.GothamBold
+title.TextSize = 14
+
+-- 🌈 ระบบ RGB
+runService.RenderStepped:Connect(function()
+    local hue = tick() % 5 / 5
+    local color = Color3.fromHSV(hue, 1, 1)
+    uiStroke.Color = color
+    title.TextColor3 = color
+end)
+
+-- 🖱️ ระบบลาก UI (Draggable)
+local dragging, dragInput, dragStart, startPos
+mainFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        dragStart = input.Position
+        startPos = mainFrame.Position
+    end
+end)
+mainFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement then
+        dragInput = input
+    end
+end)
+userInputService.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        local delta = input.Position - dragStart
+        mainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+end)
+userInputService.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+    end
+end)
+
+-- ⌨️ ปุ่มเปิด/ปิด UI (RightControl)
+userInputService.InputBegan:Connect(function(input, gpe)
+    if not gpe and input.KeyCode == Enum.KeyCode.RightControl then
+        mainFrame.Visible = not mainFrame.Visible
+    end
+end)
+
+-- 🛠️ Elements ภายใน
+local listLayout = Instance.new("UIListLayout", mainFrame)
+listLayout.Padding = UDim.new(0, 5)
+listLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+-- Spacer ให้ห่างจาก Title
+local spacer = Instance.new("Frame", mainFrame)
+spacer.Size = UDim2.new(1, 0, 0, 30)
+spacer.BackgroundTransparency = 1
+
+local nameBox = Instance.new("TextBox", mainFrame)
+nameBox.Size = UDim2.new(0.9, 0, 0, 35)
+nameBox.PlaceholderText = "Target Name..."
+nameBox.Text = ""
+nameBox.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+nameBox.TextColor3 = Color3.new(1, 1, 1)
+nameBox.Font = Enum.Font.Gotham
+nameBox.TextSize = 12
+Instance.new("UICorner", nameBox)
+
+nameBox:GetPropertyChangedSignal("Text"):Connect(function()
+    targetNameSearch = nameBox.Text
+end)
+
+local skyBtn = Instance.new("TextButton", mainFrame)
+skyBtn.Size = UDim2.new(0.9, 0, 0, 45)
+skyBtn.Text = "SILENT SKY"
+skyBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 45)
+skyBtn.TextColor3 = Color3.new(1, 1, 1)
+skyBtn.Font = Enum.Font.GothamBold
+Instance.new("UICorner", skyBtn)
+
+local autoBtn = Instance.new("TextButton", mainFrame)
+autoBtn.Size = UDim2.new(0.9, 0, 0, 45)
+autoBtn.Text = "NORMAL AUTO"
+autoBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+autoBtn.TextColor3 = Color3.new(1, 1, 1)
+autoBtn.Font = Enum.Font.GothamBold
+Instance.new("UICorner", autoBtn)
+
+-- ระบบปุ่ม
+autoBtn.MouseButton1Click:Connect(function()
+    auto = not auto
+    skyAuto = false
+    autoBtn.Text = auto and "AUTO: ON" or "NORMAL AUTO"
+    autoBtn.BackgroundColor3 = auto and Color3.fromRGB(0, 150, 0) or Color3.fromRGB(35, 35, 35)
+    skyBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 45)
+    skyBtn.Text = "SILENT SKY"
+end)
+
+skyBtn.MouseButton1Click:Connect(function()
+    skyAuto = not skyAuto
+    auto = false
+    skyBtn.Text = skyAuto and "SKY: ACTIVE" or "SILENT SKY"
+    skyBtn.BackgroundColor3 = skyAuto and Color3.fromRGB(0, 100, 250) or Color3.fromRGB(35, 35, 45)
+    autoBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+    autoBtn.Text = "NORMAL AUTO"
+end)
+
+runService.Heartbeat:Connect(function()
+    if auto then executeShoot(false) elseif skyAuto then executeShoot(true) end
+end)
