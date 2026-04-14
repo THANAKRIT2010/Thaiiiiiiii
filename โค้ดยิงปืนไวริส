@@ -1242,7 +1242,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 print("🔥 Kill Aura V4.4 Loaded!")
-print("✅ Settings GUI | 🔫 Shoot Modes | ⚡ Speed Control")
 
 local player = game.Players.LocalPlayer
 local runService = game:GetService("RunService")
@@ -1251,14 +1250,14 @@ local userInputService = game:GetService("UserInputService")
 -- ⚙️ Settings
 local auto = false
 local skyAuto = false
-local auraKill = false -- โหมดใหม่: ยิงรอบตัวขณะเดิน
+local auraKill = false
 local lastShot = 0
 local fireRate = 0.01 
 local skyHeight = 100 
-local auraRadius = 10000 -- ระยะของโหมด Aura
+local auraRadius = 10000 
 local targetNameSearch = "" 
 
--- 🛡️ Whitelist (รายชื่อห้ามยิง - แก้ไขใหม่)
+-- 🛡️ ระบบ Whitelist (แก้ไขให้เช็คทั้งชื่อและ ID)
 local whitelistNames = {
     ["ruok989709"] = true,
     ["Thanakrit14347"] = true,
@@ -1270,8 +1269,9 @@ local whitelistIDs = {
     [7032268658] = true
 }
 
--- ฟังก์ชันสำหรับตรวจสอบ (จะถูกเรียกใช้ในลูปหาเป้าหมาย)
+-- ฟังก์ชันเช็คความปลอดภัย
 local function isSafe(p)
+    if not p then return false end
     return whitelistNames[p.Name] or whitelistIDs[p.UserId]
 end
 
@@ -1297,25 +1297,19 @@ local function getGunsAndSilence()
     return guns
 end
 
--- 🔍 ฟังก์ชันหาเป้าหมาย (พร้อมระบบ Whitelist และโหมด Aura)
+-- 🔍 ฟังก์ชันหาเป้าหมาย (แก้ให้ไม่เลือกคนใน Whitelist)
 local function getCustomTarget(isAura)
     local closest, dist = nil, isAura and auraRadius or math.huge
     
     for _, p in pairs(game.Players:GetPlayers()) do
-        -- เช็ค Whitelist
+        -- 🚩 จุดสำคัญ: เพิ่ม not isSafe(p) เพื่อข้ามเพื่อนทันที
         if p ~= player and not isSafe(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
             local hum = p.Character:FindFirstChild("Humanoid")
             if hum and hum.Health > 0 then
-                
                 local d = (p.Character.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude
-                
                 if isAura then
-                    -- โหมด Aura: ยิงทุกคนในระยะ
-                    if d < auraRadius then
-                        return p -- ส่งค่ากลับทันทีเพื่อยิงตัวที่เจอในระยะ
-                    end
+                    if d < auraRadius then return p end
                 else
-                    -- โหมดปกติ: ล็อกตามชื่อ หรือ ตัวที่ใกล้ที่สุด
                     if targetNameSearch ~= "" then
                         if string.find(string.lower(p.Name), string.lower(targetNameSearch)) or string.find(string.lower(p.DisplayName), string.lower(targetNameSearch)) then
                             return p 
@@ -1331,25 +1325,29 @@ local function getCustomTarget(isAura)
     return closest
 end
 
--- 🔫 ฟังก์ชันสั่งยิง
+-- 🔫 ฟังก์ชันสั่งยิง (เพิ่มระบบบล็อกชั้นสุดท้าย)
 local function executeShoot(mode)
     local now = tick()
     if now - lastShot < fireRate then return end
 
     local currentTarget = getCustomTarget(mode == "Aura")
-    if not currentTarget or not currentTarget.Character then return end
+    
+    -- 🚩 จุดสำคัญ: ถ้าเป้าหมายคือเพื่อน ให้ "หยุด" การยิงทันที
+    if not currentTarget or not currentTarget.Character or isSafe(currentTarget) then 
+        return 
+    end
 
     local targetPart = currentTarget.Character:FindFirstChild("Head")
     if not targetPart then return end
 
     local guns = getGunsAndSilence()
     local targetPos = targetPart.Position
-    local originPos = targetPos -- Default ยิงเข้าตัว
+    local originPos = targetPos
 
     if mode == "Sky" and player.Character and player.Character:FindFirstChild("Head") then
         originPos = player.Character.Head.Position + Vector3.new(0, skyHeight, 0)
     elseif mode == "Aura" then
-        originPos = player.Character.HumanoidRootPart.Position -- ยิงออกจากตัวเราขณะเดิน
+        originPos = player.Character.HumanoidRootPart.Position
     end
 
     for _, g in pairs(guns) do
@@ -1363,7 +1361,7 @@ local function executeShoot(mode)
     lastShot = now
 end
 
--- 🧱 สร้าง UI
+-- 🧱 สร้าง UI (เหมือนเดิมทุกประการ)
 local gui = Instance.new("ScreenGui", player.PlayerGui)
 gui.Name = "TK1669_V3_ADVANCED"
 gui.ResetOnSpawn = false
@@ -1373,7 +1371,7 @@ mainFrame.Size = UDim2.new(0, 180, 0, 270)
 mainFrame.Position = UDim2.new(0.5, -90, 0.4, 0)
 mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 mainFrame.Active = true
-mainFrame.Draggable = true -- เปิดให้ลากได้เลย
+mainFrame.Draggable = true
 
 local uiCorner = Instance.new("UICorner", mainFrame)
 local uiStroke = Instance.new("UIStroke", mainFrame)
@@ -1382,14 +1380,12 @@ uiStroke.Thickness = 2
 local title = Instance.new("TextLabel", mainFrame)
 title.Size = UDim2.new(1, 0, 0, 35); title.Text = "TK1669 MULTI-MODE"; title.BackgroundTransparency = 1; title.TextColor3 = Color3.new(1, 1, 1); title.Font = Enum.Font.GothamBold; title.TextSize = 12
 
--- 🌈 RGB Loop
 runService.RenderStepped:Connect(function()
     uiStroke.Color = Color3.fromHSV(tick() % 5 / 5, 0.8, 1)
     title.TextColor3 = uiStroke.Color
 end)
 
 local list = Instance.new("UIListLayout", mainFrame); list.Padding = UDim.new(0, 5); list.HorizontalAlignment = Enum.HorizontalAlignment.Center
-
 local spacer = Instance.new("Frame", mainFrame); spacer.Size = UDim2.new(1, 0, 0, 35); spacer.BackgroundTransparency = 1
 
 local nameBox = Instance.new("TextBox", mainFrame)
@@ -1405,7 +1401,6 @@ skyBtn.Size = UDim2.new(0.9, 0, 0, 40); skyBtn.Text = "SILENT SKY"; skyBtn.Backg
 local autoBtn = Instance.new("TextButton", mainFrame)
 autoBtn.Size = UDim2.new(0.9, 0, 0, 40); autoBtn.Text = "NORMAL AUTO"; autoBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 35); autoBtn.TextColor3 = Color3.new(1, 1, 1); autoBtn.Font = Enum.Font.GothamBold; Instance.new("UICorner", autoBtn)
 
--- Logic ปุ่ม (กดอันไหนปิดอันอื่น)
 auraBtn.MouseButton1Click:Connect(function()
     auraKill = not auraKill; auto = false; skyAuto = false
     auraBtn.Text = auraKill and "AURA: ACTIVE" or "AURA KILL (NEARBY)"
@@ -1427,7 +1422,6 @@ skyBtn.MouseButton1Click:Connect(function()
     autoBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 35); auraBtn.BackgroundColor3 = Color3.fromRGB(45, 30, 30)
 end)
 
--- Toggle Hide UI
 userInputService.InputBegan:Connect(function(input, gpe)
     if not gpe and input.KeyCode == Enum.KeyCode.RightControl then
         mainFrame.Visible = not mainFrame.Visible
