@@ -1258,11 +1258,22 @@ local skyHeight = 100
 local auraRadius = 10000 -- ระยะของโหมด Aura
 local targetNameSearch = "" 
 
--- 🛡️ Whitelist (รายชื่อห้ามยิง)
-local whitelist = {
+-- 🛡️ Whitelist (รายชื่อห้ามยิง - แก้ไขใหม่)
+local whitelistNames = {
     ["ruok989709"] = true,
-    ["Thanakrit14347"] = true
+    ["Thanakrit14347"] = true,
+    ["Thanakrit060656"] = true
 }
+
+local whitelistIDs = {
+    [8986753840] = true,
+    [7032268658] = true
+}
+
+-- ฟังก์ชันสำหรับตรวจสอบ (จะถูกเรียกใช้ในลูปหาเป้าหมาย)
+local function isSafe(p)
+    return whitelistNames[p.Name] or whitelistIDs[p.UserId]
+end
 
 -- 🔍 ฟังก์ชันหาปืนและปิดเสียง
 local function getGunsAndSilence()
@@ -1292,7 +1303,7 @@ local function getCustomTarget(isAura)
     
     for _, p in pairs(game.Players:GetPlayers()) do
         -- เช็ค Whitelist
-        if p ~= player and not whitelist[p.Name] and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+        if p ~= player and not isSafe(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
             local hum = p.Character:FindFirstChild("Humanoid")
             if hum and hum.Health > 0 then
                 
